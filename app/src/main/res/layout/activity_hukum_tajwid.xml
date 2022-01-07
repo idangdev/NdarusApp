@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.muqodimah.HukumTajwidActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/label_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hukum Mengamalkan Tajwid"
+                android:textSize="20sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/label_tajwid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hukum_tajwid"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/label_title"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/label_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dasar hukum dari Al quran"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/label_tajwid"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/label_tajwid2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hukum_tajwid2"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/label_title2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/label_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dasar hukum dari Ijma"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/label_tajwid2"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/label_tajwid3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hukum_tajwid3"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/label_title3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/bg_btn_top_left.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_back.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_belajar.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_hamzah.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_logo.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_makhroj.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_pendahuluan.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_quiz.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_tajwid.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_tentang.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_alif_lam.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_belajar.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_alif_lam.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_idgham.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_lam_jalalah.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_mad.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_makhroj.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_mim_sukun.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_nun_sukun_tanwin.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_qalqalah.xml" value="0.1953125" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_ro.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_harokat.xml" value="0.1705150976909414" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_hukum_tajwid.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_huruf_hijaiyah.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_idgham.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_kiat_sukses.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_lam_jalalah.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_mad.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_makhroj.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_mim_sukun.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_muqodimah.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_nun_sukun_tanwin.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_pendahulu.xml" value="0.33" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_qalqalah.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_ro.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tajwid.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tajwid_tartil.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tempat_keluar_huruf.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/alif_lam_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/idgham_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/lam_jalalah_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/mad_item_list.xml" value="0.20615384615384616" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/mad_tem_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/makhroj_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/mim_sukun_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/nun_sukun_tanwin_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/qalqalah_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/ro_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22552083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
