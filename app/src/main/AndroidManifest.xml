@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.quiz.teori.QuizTeoriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.QuizActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.belajar.tajwid.ro.detail.DetailRoActivity"
             android:exported="false"
             android:label="@string/title_activity_detail_ro"

@@ -6,6 +6,7 @@ import com.wildan.ndarusapp.databinding.ActivityHomeBinding
 import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.belajar.BelajarActivity
 import com.wildan.ndarusapp.ui.muqodimah.MuqodimahActivity
+import com.wildan.ndarusapp.ui.quiz.QuizActivity
 
 class HomeActivity : BaseActivity() {
 
@@ -23,6 +24,11 @@ class HomeActivity : BaseActivity() {
 
         binding.btnBelajar.setOnClickListener {
             val intent = Intent(Intent(applicationContext, BelajarActivity::class.java))
+            startActivity(intent)
+        }
+
+        binding.btnQuiz.setOnClickListener {
+            val intent = Intent(Intent(applicationContext, QuizActivity::class.java))
             startActivity(intent)
         }
 

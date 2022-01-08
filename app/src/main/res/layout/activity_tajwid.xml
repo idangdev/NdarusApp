@@ -71,13 +71,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Mad"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
@@ -87,13 +86,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Qalqalah"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_mad" />
 
             <com.google.android.material.button.MaterialButton
@@ -103,13 +101,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Lam Jalalah"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_qalqalah" />
 
             <com.google.android.material.button.MaterialButton
@@ -119,13 +116,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Mim Sukun"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_lam_jalalah" />
 
             <com.google.android.material.button.MaterialButton
@@ -135,13 +131,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Nun Sukun dan Tanwin"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_mim_sukun" />
 
             <com.google.android.material.button.MaterialButton
@@ -151,13 +146,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Idgham"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_nun_sukun_tanwin" />
 
             <com.google.android.material.button.MaterialButton
@@ -167,13 +161,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Alif Lam"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_idgham" />
 
             <com.google.android.material.button.MaterialButton
@@ -183,13 +176,12 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Ro"
-                android:fontFamily="@font/montserrat_bold"
-                app:cornerRadius="20dp"
-                app:strokeWidth="2dp"
-                app:strokeColor="@color/green_500"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                app:backgroundTint="@color/white"
+                app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_alif_lam" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

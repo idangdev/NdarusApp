@@ -57,13 +57,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Pendahuluan"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/label_title_app" />
 
     <com.google.android.material.button.MaterialButton
@@ -73,13 +72,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Arti Tartil dan Tajwid"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_pendahuluan" />
 
     <com.google.android.material.button.MaterialButton
@@ -89,13 +87,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Kiat Sukses"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_tartil_tajwid" />
 
     <com.google.android.material.button.MaterialButton
@@ -105,13 +102,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Huruf Hijaiyah"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_kiat" />
 
     <com.google.android.material.button.MaterialButton
@@ -121,13 +117,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Harokat"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_hijaiyah" />
 
     <com.google.android.material.button.MaterialButton
@@ -137,13 +132,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Tempat Keluar Huruf"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_harokat" />
 
     <com.google.android.material.button.MaterialButton
@@ -153,13 +147,12 @@
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
         android:text="Hukum Tajwid"
-        android:fontFamily="@font/montserrat_bold"
-        app:cornerRadius="20dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@color/green_500"
+        android:fontFamily="@font/montserrat"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
         android:textAllCaps="false"
         android:textColor="@color/green_500"
-        app:backgroundTint="@color/white"
+        app:backgroundTint="@color/gray"
         app:layout_constraintTop_toBottomOf="@+id/btn_tempat" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

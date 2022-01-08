@@ -4,14 +4,12 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tool="http://schemas.android.com/tools"
-    android:backgroundTint="@color/white"
+    android:backgroundTint="@color/gray"
     android:layout_marginTop="5dp"
     android:layout_marginBottom="5dp"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
-    app:strokeWidth="2dp"
-    app:strokeColor="@color/green_500"
-    app:cardCornerRadius="20dp"
+    app:cardCornerRadius="10dp"
     app:cardElevation="2dp">
 
     <LinearLayout
@@ -19,14 +17,15 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="5dp"
+        android:padding="7dp"
         >
         <TextView
             android:id="@+id/alif_lam_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/green_500"
-            android:fontFamily="@font/montserrat_bold"
+            android:fontFamily="@font/montserrat"
+            android:textStyle="bold"
             tool:text="Alif Lam" />
     </LinearLayout>
 

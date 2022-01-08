@@ -50,6 +50,9 @@ class MuqodimahActivity : BaseActivity() {
             startActivity(intent)
         }
 
+        binding.btnBack.setOnClickListener {
+            finish()
+        }
 
 
 
