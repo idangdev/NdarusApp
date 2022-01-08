@@ -33,7 +33,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:fontFamily="@font/montserrat_bold"
-        tools:text="Quiz Teori"
+        android:text="Quiz Teori"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            tools:text="/"
+            android:text="/"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"
             android:fontFamily="@font/montserrat_bold"
@@ -94,8 +94,7 @@
                 android:id="@+id/tv_pertanyaan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
+                android:fontFamily="@font/montserrat_bold"
                 android:textColor="@color/green_500"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -107,8 +106,8 @@
                 android:id="@+id/rg_pilgan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="10dp"
+                android:orientation="vertical"
                 app:layout_constraintStart_toStartOf="@+id/tv_pertanyaan"
                 app:layout_constraintTop_toBottomOf="@id/tv_pertanyaan">
 
@@ -116,34 +115,48 @@
                     android:id="@+id/rb_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/montserrat_bold"
                     android:padding="5dp"
                     android:text="A. Pilihan A"
-                    android:textStyle="bold" />
+                    android:textColor="@color/green_500" />
 
                 <RadioButton
                     android:id="@+id/rb_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/montserrat_bold"
                     android:padding="5dp"
                     android:text="B. Pilihan B"
-                    android:textStyle="bold" />
+                    android:textColor="@color/green_500" />
 
                 <RadioButton
                     android:id="@+id/rb_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/montserrat"
+                    android:fontFamily="@font/montserrat_bold"
                     android:padding="5dp"
                     android:text="C. Pilhan C"
-                    android:textStyle="bold" />
+                    android:textColor="@color/green_500" />
 
             </RadioGroup>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_next"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        app:cornerRadius="20dp"
+        android:text="NEXT"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

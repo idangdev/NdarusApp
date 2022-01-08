@@ -226,4 +226,31 @@ object DataDummy {
         return ro
     }
 
+    fun generateAlIkhlash(): List<AlIkhlashEntity>{
+        var alIkhlash = ArrayList<AlIkhlashEntity>()
+
+        alIkhlash.add(AlIkhlashEntity(
+            1,
+            "قل هو الله احد"
+        ))
+
+        alIkhlash.add(AlIkhlashEntity(
+            2,
+            "الله الصمد"
+        ))
+
+        alIkhlash.add(AlIkhlashEntity(
+            3,
+            "لم يلد ولم يولد"
+        ))
+
+        alIkhlash.add(AlIkhlashEntity(
+            4,
+            "ولم يكن له كفوا احد"
+        ))
+
+        return alIkhlash
+
+    }
+
 }
