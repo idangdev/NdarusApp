@@ -18,6 +18,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="catatan_aplikasi">1. Ketika belajar, disarankan tetap mendatangi Ustadz. Karena untuk belajar membaca Al-Quran dengan baik dan benar harus tatap muka langsung dengan seorang Ustadz.\n\n2. Fitur pendeteksi hafalan Al-Quran hanya digunakan untuk mengoreksi hafalan Al-Quran saja. Tidak untuk mengoreksi kualitas benar atau tidaknya bacaan pengguna dalam makhorijul huruf dan sifat - sifatnya. Karena dalam mengoreksi bacaan Al-Quran sangat mustahil jika dikoreksi oleh sebuah mesin. Tidak hanya suaranya saja yang menjadi acuan. Tetapi sifat - sifat hurufnya, gerak bibir, bentuk lidahnya juga harus diperhatikan</string>
 
 
 </resources>

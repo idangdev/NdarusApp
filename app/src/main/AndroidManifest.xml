@@ -13,6 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.tentang.referensi.ReferenceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.tentang.contactus.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.tentang.catatan.CatatanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.tentang.TentangActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.quiz.praktik.QuizPraktikDoneActivity"
             android:exported="false" />
         <activity

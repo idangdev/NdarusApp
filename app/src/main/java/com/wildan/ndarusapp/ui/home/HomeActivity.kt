@@ -7,6 +7,7 @@ import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.belajar.BelajarActivity
 import com.wildan.ndarusapp.ui.muqodimah.MuqodimahActivity
 import com.wildan.ndarusapp.ui.quiz.QuizActivity
+import com.wildan.ndarusapp.ui.tentang.TentangActivity
 
 class HomeActivity : BaseActivity() {
 
@@ -29,6 +30,11 @@ class HomeActivity : BaseActivity() {
 
         binding.btnQuiz.setOnClickListener {
             val intent = Intent(Intent(applicationContext, QuizActivity::class.java))
+            startActivity(intent)
+        }
+
+        binding.btnTentang.setOnClickListener {
+            val intent = Intent(Intent(applicationContext, TentangActivity::class.java))
             startActivity(intent)
         }
 

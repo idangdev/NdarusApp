@@ -6,17 +6,24 @@
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/bg_btn_top_left.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_back.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_belajar.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_catatan.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_contact_us.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_danger.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_email.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_hamzah.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_logo.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_makhroj.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_pendahuluan.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_praktik.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_quiz.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_referensi.xml" value="0.25" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_tajwid.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_tentang.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/drawable/ic_teori.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_alif_lam.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_belajar.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_catatan.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_contact_us.xml" value="0.33" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_alif_lam.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_idgham.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_detail_lam_jalalah.xml" value="0.209375" />
@@ -45,11 +52,13 @@
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_quiz_praktik_done.xml" value="0.1953125" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_quiz_teori.xml" value="0.25" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_quiz_teori_done.xml" value="0.22" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_reference.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_ro.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_splash.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tajwid.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tajwid_tartil.xml" value="0.25" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tempat_keluar_huruf.xml" value="0.25" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_tentang.xml" value="0.25" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/alif_lam_item_list.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/idgham_item_list.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/lam_jalalah_item_list.xml" value="0.209375" />
