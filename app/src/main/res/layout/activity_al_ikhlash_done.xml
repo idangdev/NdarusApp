@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    tools:context=".ui.quiz.praktik.QuizPraktikDoneActivity">
+    tools:context=".ui.quiz.praktik.alikhlash.AlIkhlashDoneActivity">
 
     <ImageView
         android:id="@+id/bg_top"

@@ -88,11 +88,11 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="20dp">
+            android:padding="40dp">
 
             <TextView
                 android:id="@+id/tv_pertanyaan"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/montserrat_bold"
                 android:textColor="@color/green_500"
@@ -151,6 +151,20 @@
         android:layout_marginBottom="150dp"
         app:cornerRadius="20dp"
         android:text="NEXT"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_submit"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        app:cornerRadius="20dp"
+        android:text="Submit"
+        android:visibility="gone"
         android:backgroundTint="@color/orange"
         android:fontFamily="@font/montserrat_bold"
         app:layout_constraintEnd_toEndOf="parent"

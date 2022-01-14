@@ -32,5 +32,9 @@ class TentangActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.btnBack.setOnClickListener{
+            finish()
+        }
+
     }
 }

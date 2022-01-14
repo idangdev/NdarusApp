@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.quiz.praktik.alfalaq.AlFalaqActivity">
+
+    <ImageView
+        android:id="@+id/bg_top"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_bg_top_right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/green_500" />
+
+    <TextView
+        android:id="@+id/label_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Hafalan"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_nama_surat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Al Falaq"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Nomor Ayat"
+        android:textColor="@color/green_500"
+        android:textSize="32sp"
+        android:fontFamily="@font/montserrat"
+        app:layout_constraintEnd_toEndOf="@+id/label_nama_surat"
+        app:layout_constraintStart_toStartOf="@+id/label_nama_surat"
+        app:layout_constraintTop_toBottomOf="@+id/label_nama_surat" />
+
+    <TextView
+        android:id="@+id/label_peringatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Tekan tombol dan \nbacalah dengan tartil dan benar ..."
+        android:textAlignment="center"
+        android:textColor="@color/green_500"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_no" />
+
+    <ImageView
+        android:id="@+id/iv_base_mic"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/ic_base_mic"
+        app:tint="@color/light_gray"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_mic"
+        app:layout_constraintEnd_toEndOf="@+id/btn_mic"
+        app:layout_constraintStart_toStartOf="@+id/btn_mic"
+        app:layout_constraintTop_toTopOf="@+id/btn_mic" />
+
+
+    <ImageView
+        android:id="@+id/btn_mic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_mic"
+        app:layout_constraintEnd_toEndOf="@+id/label_peringatan"
+        app:layout_constraintStart_toStartOf="@+id/label_peringatan"
+        app:layout_constraintTop_toBottomOf="@+id/label_peringatan"
+        app:tint="@color/mic_disabled_color" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

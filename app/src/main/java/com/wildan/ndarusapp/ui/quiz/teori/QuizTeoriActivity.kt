@@ -3,99 +3,82 @@ package com.wildan.ndarusapp.ui.quiz.teori
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.RadioButton
 import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
+import com.wildan.ndarusapp.data.QuizTeoriEntity
 import com.wildan.ndarusapp.databinding.ActivityQuizTeoriBinding
+import kotlin.random.Random
 
 class QuizTeoriActivity : AppCompatActivity() {
 
-    private var PILGAN: String? = null
-
-    val questions = arrayOf(
-        "Siapa nama presiden pertama?",
-        "Siapa nama presiden sekarang?",
-        "Apa nama ibu kota indonesia?"
-    )
-
-    val answers = arrayOf(
-        "SBY", "Jokowi", "Soekarno",
-        "Jokowi", "Soekarno", "SBY",
-        "Jakarta", "Pemalang", "Tegal"
-    )
-
-    val correct_answers = arrayOf(
-        "Soekarno",
-        "Jokowi",
-        "Jakarta"
-    )
-
-    var current_question = 0
-    var current_answer_a = 0
-    var current_answer_b = 1
-    var current_answer_c = 2
-    var current_correct_answer = 0
-    val jumlah_soal = questions.size
-    var score = 0
-
     private lateinit var binding: ActivityQuizTeoriBinding
+    private var PILGAN: String? = null
+    private var listQuizTeori = ArrayList<QuizTeoriEntity>()
     private var radioButton: RadioButton? = null
+
+    var currentScore = 0
+    var nomor = 1
+    var currentPos = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityQuizTeoriBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvJumlahSoal.text = questions.size.toString()
-        binding.tvNoSoal.text = "${current_question + 1}"
-        binding.tvPertanyaan.text = questions[current_question]
-        binding.rbA.text = answers[current_answer_a]
-        binding.rbB.text = answers[current_answer_b]
-        binding.rbC.text = answers[current_answer_c]
+        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(QuizTeoriViewModel::class.java)
+        val quizTeori = viewModel.getQuizTeori()
+
+        listQuizTeori.addAll(quizTeori)
+
+        currentPos = Random.nextInt(listQuizTeori.size)
+        setDataToViews(currentPos)
 
         binding.rgPilgan.setOnCheckedChangeListener { radioGroup, checkedId ->
-            radioButton = findViewById<RadioButton>(radioGroup.checkedRadioButtonId)
+            radioButton = findViewById(radioGroup.checkedRadioButtonId)
             PILGAN = radioButton?.text.toString()
-//            Toast.makeText(applicationContext, PILGAN, Toast.LENGTH_SHORT).show()
         }
 
         binding.btnNext.setOnClickListener {
-            if (PILGAN == correct_answers[current_correct_answer]){
-                score++
+            if (PILGAN == listQuizTeori[currentPos].answer){
+                currentScore++
             }
-            nextQuestion(binding)
-//            Toast.makeText(applicationContext, "$score", Toast.LENGTH_SHORT).show()
+            nomor++
             binding.rgPilgan.clearCheck()
+            currentPos = Random.nextInt(listQuizTeori.size)
+            setDataToViews(currentPos)
+        }
+
+        binding.btnSubmit.setOnClickListener {
+            if (PILGAN == listQuizTeori[currentPos].answer) {
+                currentScore++
+            }
+
+            val intent = Intent(this, QuizTeoriDoneActivity::class.java)
+            intent.putExtra(QuizTeoriDoneActivity.EXTRA_SCORE, currentScore)
+            startActivity(intent)
+            finish()
         }
 
         binding.btnBack.setOnClickListener {
             finish()
         }
+
+
     }
 
-    fun nextQuestion(binding: ActivityQuizTeoriBinding){
-        current_question++
-        current_answer_a+=3
-        current_answer_b+=3
-        current_answer_c+=3
-        current_correct_answer++
-
-        if (current_question < questions.size){
-            binding.tvNoSoal.text = "${current_question + 1}"
-            binding.tvPertanyaan.text = questions[current_question]
-            binding.rbA.text = answers[current_answer_a]
-            binding.rbB.text = answers[current_answer_b]
-            binding.rbC.text = answers[current_answer_c]
-            if (current_question == questions.size - 1){
-                binding.btnNext.text = "Submit"
-            }
-//            Toast.makeText(applicationContext, "Berhasil", Toast.LENGTH_SHORT).show()
-        }else{
-//            Toast.makeText(applicationContext, "score $score/$jumlah_soal", Toast.LENGTH_SHORT).show()
-            val intent = Intent(applicationContext, QuizTeoriDoneActivity::class.java)
-            intent.putExtra(QuizTeoriDoneActivity.EXTRA_SCORE, score)
-            intent.putExtra(QuizTeoriDoneActivity.EXTRA_TOTAL_SOAL, jumlah_soal)
-            startActivity(intent)
-            finish()
+    private fun setDataToViews(currentPos: Int) {
+        binding.tvNoSoal.text = "$nomor"
+        binding.tvJumlahSoal.text = "10"
+        if (nomor == 10){
+            binding.btnNext.visibility = View.GONE
+            binding.btnSubmit.visibility = View.VISIBLE
         }
+        binding.tvPertanyaan.text = listQuizTeori[currentPos].question
+        binding.rbA.text = listQuizTeori[currentPos].option1
+        binding.rbB.text = listQuizTeori[currentPos].option2
+        binding.rbC.text = listQuizTeori[currentPos].option3
     }
+
 }
