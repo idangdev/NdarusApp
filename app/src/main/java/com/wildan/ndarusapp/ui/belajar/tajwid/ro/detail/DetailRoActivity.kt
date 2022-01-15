@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.RoEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailRoBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailRoActivity : AppCompatActivity() {
+class DetailRoActivity : BaseActivity() {
 
     companion object{
         val EXTRA_RO = "extra_ro"

@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.LamJalalahEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailLamJalalahBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailLamJalalahActivity : AppCompatActivity() {
+class DetailLamJalalahActivity : BaseActivity() {
 
     companion object {
         val EXTRA_LAM_JALALAH = "extra_lam_jalalah"

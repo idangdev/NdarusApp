@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.IdghamEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailIdghamBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailIdghamActivity : AppCompatActivity() {
+class DetailIdghamActivity : BaseActivity() {
 
     companion object{
         val EXTRA_IDGHAM = "extra_idgham"

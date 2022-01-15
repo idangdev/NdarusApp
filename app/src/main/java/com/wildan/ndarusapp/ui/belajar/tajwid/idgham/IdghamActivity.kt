@@ -5,8 +5,9 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wildan.ndarusapp.databinding.ActivityIdghamBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class IdghamActivity : AppCompatActivity() {
+class IdghamActivity : BaseActivity() {
 
     private lateinit var binding: ActivityIdghamBinding
 

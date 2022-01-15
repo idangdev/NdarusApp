@@ -3,8 +3,9 @@ package com.wildan.ndarusapp.ui.tentang.referensi
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityReferenceBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class ReferenceActivity : AppCompatActivity() {
+class ReferenceActivity : BaseActivity() {
 
     private lateinit var binding : ActivityReferenceBinding
 

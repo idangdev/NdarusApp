@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.MimSukunEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailMimSukunBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailMimSukunActivity : AppCompatActivity() {
+class DetailMimSukunActivity : BaseActivity() {
 
     companion object{
         val EXTRA_MIM_SUKUN = "extra_mim_sukun"

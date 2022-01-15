@@ -3,8 +3,9 @@ package com.wildan.ndarusapp.ui.quiz.praktik.alikhlash
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityAlIkhlashDoneBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlIkhlashDoneActivity : AppCompatActivity() {
+class AlIkhlashDoneActivity : BaseActivity() {
 
     companion object{
         const val EXTRA_SCORE = "extra_score"

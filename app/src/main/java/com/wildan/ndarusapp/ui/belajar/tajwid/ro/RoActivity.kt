@@ -5,8 +5,9 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wildan.ndarusapp.databinding.ActivityRoBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class RoActivity : AppCompatActivity() {
+class RoActivity : BaseActivity() {
 
     private lateinit var binding: ActivityRoBinding
 

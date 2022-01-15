@@ -50,6 +50,11 @@ class MuqodimahActivity : BaseActivity() {
             startActivity(intent)
         }
 
+        binding.btnSifatulHuruf.setOnClickListener {
+            val intent = Intent(Intent(applicationContext, SifatulHurufActivity::class.java))
+            startActivity(intent)
+        }
+
         binding.btnBack.setOnClickListener {
             finish()
         }

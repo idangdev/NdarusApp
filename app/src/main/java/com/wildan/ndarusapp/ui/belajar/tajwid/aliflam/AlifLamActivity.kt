@@ -5,8 +5,9 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wildan.ndarusapp.databinding.ActivityAlifLamBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlifLamActivity : AppCompatActivity() {
+class AlifLamActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAlifLamBinding
 

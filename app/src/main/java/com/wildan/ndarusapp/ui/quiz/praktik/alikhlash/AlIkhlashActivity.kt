@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlIkhlashEntity
 import com.wildan.ndarusapp.databinding.ActivityAlIkhlashBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlIkhlashActivity : AppCompatActivity() {
+class AlIkhlashActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAlIkhlashBinding
     private var listAlIkhlash = ArrayList<AlIkhlashEntity>()

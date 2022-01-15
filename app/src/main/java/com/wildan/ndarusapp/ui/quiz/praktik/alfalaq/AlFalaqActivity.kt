@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlFalaqEntity
 import com.wildan.ndarusapp.databinding.ActivityAlFalaqBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlFalaqActivity : AppCompatActivity() {
+class AlFalaqActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAlFalaqBinding
     private var listAlFalaq = ArrayList<AlFalaqEntity>()

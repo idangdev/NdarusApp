@@ -368,9 +368,72 @@ object DataDummy {
 
         mad.add(MadEntity(
             "mad2",
-            "Mad Arid Lissukun 2",
-            "Mad Arid Lissukun adalah cara memanjangkan bacaan pada saat berhenti (waqof) - baik di akhir maupun di tengah ayat\n\n- Mad adalah panjang bacaan\n- Arid artinya yang bertemu\n- Lis artinya karena\n- Sukun artinya mati\n\nHukum Mad Arid Lissukun berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf (hidup) berbasis Fathah, Fathatain, Kasrah, Kasratain, Dhammah dan Dhammatain yang berada di dalam satu kata atau kalimat\n\nPanjang bacaan Mad Arid Lissukun boleh 2, 4, atau 6 harakat.",
-            R.drawable.mad_arid_lissukun
+            "Mad Badal",
+            "Yaitu mad yang terjadi karena ada huruf mad sebagai ganti dari hamzah yang dibuang.\nHal ini sejalan dengan kata BADAL yang berarti GANTI ukuran\nPanjangnya adalah 2 harakat/ketukan atau sama dengan 1 alif",
+            R.drawable.mad_badal
+        ))
+
+        mad.add(MadEntity(
+            "mad3",
+            "Mad Iwadh Anit Tanwin",
+            "Mad Iwadh Anit Tanwin atau sering disebut Mad Iwadh adalah salah satu cabang dari Hukum Mad Far\' yang berlaku untuk huruf Mad Thobi\'i berbasis Fathatain.\n\nIwadh artinya ganti waqof pada huruf Alif pengganti dari fathatain\nSama seperti hukum Mad Liin dan Mad Arid Lissukun, Mad Iwadh merupakan hukum mad yang berlaku pada saat bacaan berhenti (waqof), baik di ujung maupun di tengah ayat.\n\nPanjang bacaan Mad Iwadh adalah 1 alif atau 2 harakat. Dan cara membacanya adalah dengan menghilangkan tanwin menjadi huruf ashli, seperti cara membaca hukum Mad Thobi\'i.",
+            R.drawable.mad_iwadh_anit_tanwin
+        ))
+
+        mad.add(MadEntity(
+            "mad4",
+            "Mad Jaiz Munfashil",
+            "Mad Jaiz Munfashil adalah salah satu cabang dari Hukum Mad Far\'i.\n\n- Jaiz artinya boleh.\n- Munfashil artinya di luar kata atau terpisah\n\nMad Jaiz Munfashil berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf Alif berharakat Fathah, Kasrah, atau Dhammah\nDi dalam Al quran, Mad Jaiz Munfashil diberi tanda garis tipis melengkung di bagian atas huruf Mad Thobi\'i atau berada di antara huruf Mad Thobi\'i dan huruf Alif",
+            R.drawable.mad_jaiz_munfashil
+        ))
+
+        mad.add(MadEntity(
+            "mad5",
+            "Mad Lazim Harfi Mukhaffaf",
+            "Mad Lazim Harfi Mukhaffaf adalah bagian dari hukum Mad Far\'i yang terjadi pada huruf-huruf tunggal pada permulaan surah-surah di dalam Al Quran. Dan hanya dibaca nama hurufnya saja.\n- Lazim artinya harus atau wajib\n- Hargi artinya huruf mad terjadi karena huruf (bukan pada kata/kalimat)\n- Mukhaffaf artinya ringan cara mengucapkannya\n\n- 1 Huruf Alif, cukup dibaca 1 harakat\n- 5 Huruf \'haya thahara\', yaitu ح ي ط ه ر dibaca panjang 2 harakat\n- 8 Huruf \'shadqafnun sama lam kaf \'ain\', yaitu ص ق ن س م ل ك ع \nDibaca 6 harakat. Tidak dibaca dengung (Idgham), kecuali huruf \'Ain pada surah Maryam dan huruf Mim bertasydid",
+            R.drawable.mad_lazim_harfi_mukhaffaf
+        ))
+
+        mad.add(MadEntity(
+            "mad6",
+            "Mad Lazim Kilmi Mutsaqqal",
+            "Mad Lazim Kilmi Mutsaqqal atau sering disebut Mad Lazim Muthawwal adalah salah satu cabang dari 11 Hukum Mad Far\'i\n\n- Lazim artinya pasti atau wajib\n- Kilmi atau kalimi artinya perkataan mad terjadi karena berada di dalam suatu perkataan (kata)\n- Mutsaqqal artinya diberatkan, berat cara mengucapkannya\n- Sedangkan Muthawwal artinya dipanjangkan\n\nHukum Mad Lazim Kilmi Mutsaqqal berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf bertasydid\n\nPanjang bacaan Mad Lazim Kilmi Mutsaqqal adalah wajib 6 harakat (tidak dapat ditawar)",
+            R.drawable.mad_lazim_kilmi_mutsaqqal
+        ))
+
+        mad.add(MadEntity(
+            "mad7",
+            "Mad Lazim Mukhaffaf Kalimi",
+            "Mad Lazim Mukhaffaf Kalimi terjadi apabila huruf mad bertemu oleh huruf yang berbaris sukun dalam satu kata. Hanya terdapat pada 2 tempat di dalam Al Quran :\n\n- Surat Yunus ayat 51\n- Surat Yunus ayat 91\nMad Lazim Mukhaffaf kalimi dibaca panjang 6 harakat.",
+            R.drawable.mad_lazim_mukhaffaf_kalimi
+        ))
+
+        mad.add(MadEntity(
+            "mad8",
+            "Mad Liin (Mad Layyin)",
+            "Hukum Mad Liin berlaku apabila huruf berbaris Fathah bertemu dengan huruf Waw Sukun dan Ya sukun dan berada dalam satu kata atau kalimat dengan satu huruf setelahnya. Artinya jika terdapat lebih dari satu huruf setelahnya, maka tidak terjadi hukum Mad Liin.\n\nCara membacanya adalah dengan membaca huruf berbaris Fathah terlebih dahulu, lalu langsung disambung dengan Waw SUkun atau Ya sukun (dibaca panjang). Setelah itu dikunci dengan huruf sesudahnya.\nPanjang bacaan Mad Lin boleh 2 harakat, 4 harakat, atau 6 harakat (pilih salah satu).",
+            R.drawable.mad_lin
+        ))
+
+        mad.add(MadEntity(
+            "mad9",
+            "Mad Tamkin",
+            "Mad Tamkin adalah salah satu cabang dari hukum Mad Far\'i yang berlaku untuk huruf Waw Sukun bertemu Waw Berharakat, dan Ya Sukun bertemu Ya Berharakat.\n\n- Tamkin artinya penetapan\nPenetapan ini berlaku :\n\n- Apabila huruf berharakat Kasrah bertemu huruf Ya Sukun (يْ), dan Huruf setelahnya adalah huruf Ya berharakat (يَ يِ يُ)\n- Dan apabila huruf berharakat Dhammah bertemu Waw Sukun (وْ), dan setelahnya adalah huruf Waw Berharakat (وَ وِ وُ)\n\nMaka cara membacanya sama seperti membaca hukum Mad Thobi\'i, serta panjang bacaannya adalah 2 harakat",
+            R.drawable.mad_tamkin
+        ))
+
+        mad.add(MadEntity(
+            "mad10",
+            "Mad Thabi\'i",
+            "Mad Thobi\'i adalah salah satu cabang dari Hukum Mad. Mad Thobi\'i artinya biasa atau alami, yaitu tidak kurang dan tidak lebih. Dibaca panjang 1 alif atau 2 harakat.\n\nMad Thobi\'i berlaku apabila :\n- Huruf berharakat Fathah bertemu dengan alif (ا)\n- Huruf berharakat Kasrah bertemu huruf Ya Sukun (يْ)\n- Dan Dhammah bertemu Waw Sukun (وْ)\nMaka huruf-huruf tersebut dibaca panjang dua harakat.",
+            R.drawable.mad_thabii
+        ))
+
+        mad.add(MadEntity(
+            "mad11",
+            "Mad Wajib Muttashil",
+            "Mad Muttashil atau Mad Wajib, sering disebut juga dengan Mad Wajib Muttashil, merupakan salah satu cabang dari Hukum Mad Far\'i\n\n- Mad merupakan panjang bacaan\n- Wajib adalah harus\n- Muttashil artinya bersambung\n\nHukum Mad Wajib Muttashil adalah hukum tajwid yang berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf Hamzah berharakat Fathah atau Fathatain, Kasrah atau Kasratain, dan Dhammah atau Dhammatain.\n\nKuncinya adalah huruf Mad Thobi\'i dan Hamzah dalam keadaan bersambung atau dalam satu kata.\n\nPanjang bacaan Hukum Mad Wajib Muttashil adalah 6 harakat (tidak dapat ditawar).",
+            R.drawable.mad_wajib_muttashil
         ))
 
         return mad
@@ -383,7 +446,14 @@ object DataDummy {
             "qalqalah1",
             "Qalqalah Qubro",
             "Huruf qalqalah ada 5 yaitu ق ط ب ج د atau supaya mudah diingat yaitu BA JU DI TO KO\n\n- Qalqalah Qubro yaitu Qalqalah yang berada diakhir kata atau karena diwaqafkan bukan karena sukun asli.\n\n- Cara membacanya yaitu dengan memantulkan suara dari makhroj hurufnya dengan pantulan yang kuat",
-            R.drawable.mad_arid_lissukun
+            R.drawable.qalqalah_qubro
+        ))
+
+        qalqalah.add(QalqalahEntity(
+            "qalqalah2",
+            "Qalqalah Shugro",
+            "Huruf qalqalah ada 5 yaitu ق ط ب ج د atau supaya mudah diingat yaitu BA JU DI TO KO\n\n- Qalqalah Shugra atau Qalqalah yang berada ditengah kata atau dengan kata lain qalqalah dengan suku asli.\n\n- Cara membacanya yaitu dengan memantulkan suara dari makhraj hurufnya (ق ط ب ج د) dengan pantulan tidak begitu kuat",
+            R.drawable.qalqalah_shugro
         ))
 
         return qalqalah
@@ -396,7 +466,14 @@ object DataDummy {
             "lam1",
             "Lam Tafkhim",
             "Tafkhim artinya tebal atau berat. Maksudnya adalah membaca huruf Lam dengan bunyi tebal atau berat, seperti bunyi antara \"LAH dan LOH\". Bunyi \"Tafkhim\" itu terjadi apabila sebelum huruf Lam Jalalah ada harakat fathah (a) atau dhammah (u)",
-            R.drawable.mad_arid_lissukun
+            R.drawable.lam_tafkhim
+        ))
+
+        lamJalalah.add(LamJalalahEntity(
+            "lam2",
+            "Lam Tarqiq",
+            "Tarqiq artinya tipis atau ringan. Maksudnya adalah membaca huruf Lam dengan bunyi tipis atau ringan, seperti bunyi \'LAH\'. Bunyi \'Tarqiq\' itu terjadi apabila sebelum huruf Lam Jalalah ada harakat kasrah (i)",
+            R.drawable.lam_tarqiq
         ))
 
         return lamJalalah
@@ -410,7 +487,23 @@ object DataDummy {
             "mim1",
             "Idgham Mitslain",
             "Idgham Mitslain atau sering disebut dengan Idgham Mimi adalah hukum tajwid yang berlaku untuk huruf Mim Sukun (مْ) bertemu dengan huruf Mim Berharokat (مَ مِ مُ).\n\n- Dinamakan Mitslain karena terjadinya pertemuan dua huruf yang makhraj dan sifatnya sama persis (identik), tapi \"dikhususkan\" hanya untuk huruf Mim Sukun bertemu Mim Berharakat.\n- Selain dari huruf Mim tersebut, maka yang berlaku untuk pertemuan 2 huruf yang sama (Sukun dan Berharakat) adalah Hukum Idgham Mutamasilain dan Hukum Mad Tamkin.",
-            R.drawable.mad_arid_lissukun
+            R.drawable.idgham_mitslain
+        ))
+
+        mimSukun.add(
+            MimSukunEntity(
+            "mim2",
+            "Ikhfa Syafawi",
+                "Ikhfa Syafawi adalah hukum tajwid yang berlaku apabila huruf Mim Sukun (مْ) bertemu dengan huruf Ba (ب)\n\n- Ikhfa artinya menyamarkan atau menyembunyikan\n- Syafawi artinya bibir\n\nDinamakan Ikhfa Syafawi karena makhraj dari huruf Mim dan Ba merupakan pertemuan antara bibir atas dan bibir bawah.",
+            R.drawable.ikhfa_syafawi
+        ))
+
+        mimSukun.add(
+            MimSukunEntity(
+            "mim3",
+            "Izhar Syafawi",
+                "Hukum Izhar Syafawi adalah hukum tajwid yang berlaku apabila huruf Mim Sukun (مْ) bertemu dengan semua huruf hijaiyah, kecuali huruf Mim dan Ba",
+            R.drawable.izhar_syafawi
         ))
 
         return mimSukun
@@ -424,7 +517,47 @@ object DataDummy {
             "nun1",
             "Idgham Bighunnah",
             "Hukum Idgham Bighunnah atau sering disebut Idgham Ma'al Ghunnah adalah hukum tajwid yang berlaku apabila :\n\nNun Sukun (نْ) atau Tanwin bertemu dengan huruf Mim, Nun, Waw, Ya (م ن و ي) secara terpisah atau tidak dalam satu kata maupun kalimat. Maksud dari kata \"terpisah\" di sini akan dibagas di bagian bawah.\n\n- Bi artinya dengan\n- Ghunnah artinya dengung\n- Sementara Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya, atau bahasa lainnya di-tasydid-kan.\n\nCara membaca Idgham Bighunnah adalah dengan meleburkan Nun Sukun atau Tanwin menjadi suara huruf di depannya, atau keempat huruf tersebut seolah diberi tanda tasydid, diiringi dengan menggunakan suara dengung 1 alif - 1 1/2 Alif atau sekitar 2 - 3 harakat.",
-            R.drawable.mad_arid_lissukun
+            R.drawable.idgham_bigunnah
+        ))
+
+        nunSukunTanwin.add(
+            NunSukunTanwinEntity(
+            "nun2",
+            "Idgham Bilaghunnah",
+            "Hukum Idgham Bilaghunnah adalah hukum tajwid yang berlaku apabila Nun Sukun (نْ) atau tanwin bertemu dengan lam (ل) atau Ro (ر) tanpa menggunakan suara dengung\n\n- Bila artinya tidak\n- Ghunnah artinya dengung\n- Sementara Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya, atau bahasa lainnya di tasydid-kan.\n\nCara membacanya adalah dengan meleburkan Nun Sukun (نْ) atau Tanwin menjadi suara huruf Lam (ل) atau Ro (ر), atau lafaz kedua huruf tersebut seolah diberi tanda tasydid, tanpa diikuti suara dengung (ghunnah).",
+            R.drawable.idgham_bilaghunnah
+        ))
+
+        nunSukunTanwin.add(
+            NunSukunTanwinEntity(
+            "nun3",
+            "Ikhfa Haqiqi",
+                "Ikhfa secara harfiah berarti menyamarkan atau menyembunyikan.\n\nDidalam ilmu tajwid, Ikhfa Haqiqi adalah menyamarkan huruf Nun Sukun (نْ) atau tanwin kedalam huruf sesudahnya.\n\nHuruf tersebut sebanyak 15 huruf yaitu:\n\nت ث د ذ ز س ش ص ض ط ظ ف ق ك\n\nKe-15 huruf tersebut tidak bertasydid dan harus dibaca dengung (ghunnah)\n\n Cara membacanya adalah dengan mengeluarkan suara Nun Sukun (نْ) atau Tanwin dari rongga hidung sehingga terlihat samar atau menjadi suara \'N\' atau \'NG\' kemudian disambut dengan dengung 1 - 1 1/2 Alif atau sekitar 2 - 3 harakat, setelah itu baru masuk ke huruf sesudahnya.",
+            R.drawable.ikfa_haqiqi
+        ))
+
+        nunSukunTanwin.add(
+            NunSukunTanwinEntity(
+            "nun4",
+            "Iqlab",
+                "Iqlab adalah salah satu hukum tajwid yang berlaku apabila huruf Nun Sukun (نْ) atau Tanwin bertemu dengan huruf Ba (ب)\n\n- Menurut bahasa, Iqlab artinya mengubah atau menggantikan sesuatu dari bentuknya.\n- Cara membacanya adalah dengan menggantikan huruf Nun Sukun (نْ) atau Tanwin menjadi suara huruf mim sukun (مْ). Sehingga pada saat akan bertemu dengan huruf Ba (ب) bibir atas dan bawah dalam posisi tertutup, diiringi dengan suara dengung sekitar 2 harakat.\n\n- Hukum Iqlab di dalam Al Quran, sudah ditandai dengan huruf mim kecil (م) dan diletakkan di atas antara Nun Sukun (نْ) atau Tanwin dengan huruf Ba (ب)",
+            R.drawable.iqlab
+        ))
+
+        nunSukunTanwin.add(
+            NunSukunTanwinEntity(
+            "nun5",
+            "Izhar Halqi",
+                "Izhar Halqi adalah salah satu cabang dari Hukum Izhar yang ada di dalam Ilmu Tajwid. Izhar artinya jelas atau terang.\n\nDinamakan Izhar Halqi berlaku apabila Nun Sukun (نْ) atau Tanwin bertemu dengan huruf Alif, \'Ain, Ghayn, Ha, Kha, Ha\' (ء) dan Hamzah (ا ع غ ح خ ه)\n\nNamun Nun Sukun (نْ) atau Tanwin jarang bertemu dengan huruf Hamzah (ء) akan tetapi huruf hamzah tetap salah satu huruf Izhar Halqi.\n\n- Cara membaca Izhar Halqi harus jelas atau terang, dan tidak berdengung.",
+            R.drawable.izhar_halqi
+        ))
+
+        nunSukunTanwin.add(
+            NunSukunTanwinEntity(
+            "nun6",
+            "Izhar Wajib",
+                "Hukum Izhar Wajib atau disebut juga Izhar Mutlaq adalah salah satu cabang dari Hukum Izhar. Cara membacanya jelas atau terang dan tidak berdengung.\n\nIzhar dibaca apabila Nun Sukun (نْ) bertemu dengan huruf (ي و م ن) dalam keadaan SAMBUNG atau DALAM SATU KATA/KALIMAT.\n\nAda 4 kata Hukum Izhar Wajib di dalam Al Quran, yaitu :\n\n- Dunya\n- Shinwanun\n- Bunyanun\n- dan Qinwanun",
+            R.drawable.izhar_wajib
         ))
 
         return nunSukunTanwin
@@ -439,7 +572,15 @@ object DataDummy {
             "idgham1",
             "Idgham Mutajanisain",
             "Idgham Mutajanisain adalah hukum tajwid yang berlaku apabila terjadi pertemuan dua huruf yang berbeda sifat, namun sejenis tempat keluar suara atau makhraj-nya. Satu dalam keadaan sukun dan satu lagi berkharokat.\n\n- Mutajanisain artinya sejenis\n- Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya (di-tasydid-kan).\n\nPanjang bacaannya adalah 2 harokat.\n\nCara membacanya adalah dengan \'mengabaikan\' huruf yang sukun, dan langsung masuk ke huruf yang berharokat, atau huruf yang sukun dileburkan ke huruf yang berharokat.\n\nHukum Idgham Mutajanisain berlaku untuk 8 huruf (ب ت ث د ذ ط ظ م)",
-            R.drawable.mad_arid_lissukun
+            R.drawable.idgham_mutajanisain
+        ))
+
+        idgham.add(
+            IdghamEntity(
+            "idgham2",
+            "Idgham Mutamatsilain",
+                "Idgham Mutamatsilain adalah hukum tajwid yang berlaku untuk pertemuan dua huruf yang sama sifat dan makhrajnya, satu dalam keadaan sukun dan satu lagi berharakat. Dua huruf tersebut berada di dalam kata atau kalimat yang terpisah.\n\n- Mutamatsilain artinya sama atau serupa\n- Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya (di-tasydid-kan).\n\nCara membacanya adalah dengan memasukkan (meleburkan) huruf yang bersukun ke dalam huruf berharakat secara jelas atau terang dan tidak didengungkan. Hukum Idgham Mutamatsilain berlaku untuk semua huruf, kecuali :\n\n- Huruf Mim Sukun (مْ) bertemu huruf Mim Berharakat (مَ مِ مُ), yang berlaku adalah hukum Idgham Mitslain.\n- Huruf Nun Sukun (نْ) bertemu huruf Nun Berharakat (نَ نِ نُ), yang berlaku adalah hukum Idgham Bighunnah.",
+            R.drawable.idgham_mutamatsilain
         ))
 
         return idgham
@@ -453,7 +594,16 @@ object DataDummy {
             "aliflam1",
             "Alif Lam Qamariyah",
             "Al Qamariyah adalah \"Al\" yang dirangkai dengan kata benda(isim) yang diawali dengan salah satu dari huruf-huruf qamariyah.\n\n- Qamariyah artinya seperti Bulan.\n\nCara membaca \"Al\" Qamariyah harus jelas (izhhar), yakni tetap kelihatan bacaan lam sukunnya. Karena itulah hukum bacaan \"Al\" Qamariyah sering disebut dengan Izhhar Qamariyah\n\n- Jumlah huruf Qamariyah itu ada 14 huruf (ا ب غ ح ج ك و خ ف ع ق ي م ه)",
-            R.drawable.mad_arid_lissukun
+            R.drawable.alif_lam_qamariyah
+        )
+        )
+
+        alifLam.add(
+            AlifLamEntity(
+            "aliflam2",
+            "Alif Lam Syamsiyah",
+                "Al Syamsiyah adalah \'Al \' atau alif lam yang dirangkai dengan kata benda (isim) yang diawali dengan salah satu dari huruf-huruf syamsiyah.\n\n- Kalau secara bahasa Syamsiyah artinya matahari\n- Cara membaca Al Syamsiyah yaitu dengan memasukkan (meng-idgham-kan) \'Al\' (lam sukun) ke huruf-huruf syamsiyah sehingga bacaan lam sukunnya hilang dan lebur ke dalam huruf syamsiyah yang mengikutinya.\n\nKarena membacanya dengan di-idghamkan, maka hukum bacaan \'Al\' Syamsiyah sering juga disebut dengan Idgham Syamsiyah\n\n- Jumlah huruf syamsiyah itu ada 14 huruf, yaitu : \n\nط ث ص ر ت ض ذ ن د س ظ ز ش ل",
+            R.drawable.alif_lam_syamsiyah
         )
         )
 
@@ -468,7 +618,16 @@ object DataDummy {
             "ro1",
             "Ro Tafkhim",
             "Tafkhim menurut bahasa adalah tebal sedangkan menurut istilah Tafkhim adalah menebalkan huruf tertentu dengan cara menaikkan pangkal lidah\n\n- Cara membacanya yaitu dengan menaikkan pangkal lidah\n\nRo wajib hukumnya dibaca tebal (tafkhim) manakala :\n\n1. Ro bertanda baca fathah = رَحْمَةَ اللهِ\n\n2. Ro bertanda baca dhammah = كَفَرُوْا\n\n3. Ro bertanda sukun (mati), sedang huruf di belakangnya berupa huruf yang difathah = مَرْحَبًا\n\n4. Ro bertanda sukun, sedang huruf di belakangnya berupa huruf yang didhammah = ذُرِّيَّةً\n\n5. Ro yang bertanda baca sukun, sedang huruf di belakangnya berupa huruf yang dikashrah, namun kashrah ini bukan asli tetapi baru datang = أَمِ ارْتَابُوْا",
-            R.drawable.mad_arid_lissukun
+            R.drawable.ro_tafkhim
+        )
+        )
+
+        ro.add(
+            RoEntity(
+            "ro2",
+            "Ro Tarqiq",
+                "Menurut bahasa, Tarqiq adalah tipis sedangkan menurut istilah Tarqiq adalah membunyikan huruf-huruf tertentu dengan suara atau bacaan tipis.\n\nCara membacanya yaitu dengan menarik bibir sedikit mundur sehingga agak meringis.\n\nRo Tarqiq dibaca apabila :\n\n- Huruf Ro itu sendiri di bertanda baca kasroh (رِ)\n- Huruf Ro dibaca sukun dan terletak setelah huruf yang dibaca kasroh, dan sesudahnya bukan huruf isti\'la",
+            R.drawable.ro_tarqiq
         )
         )
 
@@ -591,35 +750,683 @@ object DataDummy {
         var quizTeori = ArrayList<QuizTeoriEntity>()
 
         quizTeori.add(QuizTeoriEntity(
-            "Apa nama presiden pertama Indonesia?",
-            "Soekarno",
-            "Soeharto",
-            "Megawati",
-            "Soekarno"
+            "Salah satu sifat huruf Hamzah (ء) adalah",
+            "Jahr",
+            "Hams",
+            "Rakhawah",
+            "Jahr"
         ))
 
         quizTeori.add(QuizTeoriEntity(
-            "Apa nama presiden Indonesia sekarang?",
-            "Soekarno",
-            "Soeharto",
-            "Jokowi",
-            "Jokowi"
+            "Dimana letak Huruf Hamzah (ء)",
+            "Aqshal Halqi",
+            "Wasathul Halqi",
+            "Adnal Halqi",
+            "Aqshal Halqi"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Hamzah (ء) adalah",
+            "Jahr",
+            "Ishmat",
+            "Rakhawah",
+            "Rakhawah"
         ))
 
         quizTeori.add(QuizTeoriEntity(
-            "Ibukota Indonesia?",
-            "Jakarta",
-            "Pemalang",
-            "Tegal",
-            "Jakarta"
+            "Salah satu sifat huruf Ha (ه) adalah",
+            "Jahr",
+            "Isti\'la",
+            "Hams",
+            "Hams"
         ))
 
         quizTeori.add(QuizTeoriEntity(
-            "Apa nama ibukota malaysia?",
-            "Jakarta",
-            "Pemalang",
-            "Kuala Lumpur",
-            "Kuala Lumpur"
+            "Dimana letak huruf Ha (ه)",
+            "Wasathul Halqi",
+            "Aqshal Halqi",
+            "Adnal Halqi",
+            "Aqshal Halqi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ha (ه) adalah",
+            "Rakhawah",
+            "Isti\'la",
+            "Hams",
+            "Isti\'la"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Kha (ح) adalah",
+            "Idzlaq",
+            "Isti\'la",
+            "Rakhawah",
+            "Rakhawah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Kha (ح)",
+            "Wasathul Halqi",
+            "Aqshal Halqi",
+            "Adnal Halqi",
+            "Wasathul Halqi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Kha (ح) adalah",
+            "Hams",
+            "Ithbaq",
+            "Infitah",
+            "Ithbaq"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ain (ع) adalah",
+            "Isti\'la",
+            "Bainiyyah",
+            "Rakhawah",
+            "Bainiyyah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ain (ع)",
+            "Aqshal Halqi",
+            "Adnal Halqi",
+            "Wasathul Halqi",
+            "Wasathul Halqi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ain (ع) adalah",
+            "Istifal",
+            "Bainiyyah",
+            "Idzlaq",
+            "Idzlaq"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ghayn (غ) adalah",
+            "Isti\'la",
+            "Idzlaq",
+            "Ithbaq",
+            "Isti'la"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ghayn (غ)",
+            "Aqshal Halqi",
+            "Adnal Halqi",
+            "Wasathul Halqi",
+            "Adnal Halqi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ghayn (غ) adalah",
+            "Isti\'la",
+            "Ishmat",
+            "Ithbaq",
+            "Ithbaq"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Kho (خ) adalah",
+            "Infitah",
+            "Idzlaq",
+            "Ithbaq",
+            "Infitah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Kho (خ)",
+            "Adnal Halqi",
+            "Aqshal Halqi",
+            "Wasathul Halqi",
+            "Adnal Halqi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Kho (خ) adalah",
+            "Hams",
+            "Tafasysyi",
+            "Rakhawah",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Qaf (ق) adalah",
+            "Hams",
+            "Shafir",
+            "Qalqalah",
+            "Qalqalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Qaf (ق)",
+            "Aqshal Lisan",
+            "Wasathul Lisan",
+            "Hafatul Lisan",
+            "Aqshal Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Qaf (ق) adalah",
+            "Syiddah",
+            "Shafir",
+            "Qalqalah",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Kaf (ك) adalah",
+            "Jahr",
+            "Tafasysyi",
+            "Ishmat",
+            "Ishmat"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Kaf (ك)",
+            "Wasathul Lisan",
+            "Aqshal Lisan",
+            "Hafatul Lisan",
+            "Aqshal Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Kaf (ك) adalah",
+            "Ishmat",
+            "Hams",
+            "Shafir",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Jim (ج) adalah",
+            "Rakhawah",
+            "Shafir",
+            "Qalqalah",
+            "Qalqalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Jim (ج)",
+            "Wasathul Lisan",
+            "Aqshal Lisan",
+            "Hafatul Lisan",
+            "Wasathul Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Jim (ج) adalah",
+            "Qalqalah",
+            "Syiddah",
+            "Idzlaq",
+            "Idzlaq"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Syin (ش) adalah",
+            "Tafasysyi",
+            "Syiddah",
+            "Idzlaq",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Syin (ش)",
+            "Aqshal Lisan",
+            "Hafatul Lisan",
+            "Wasathul Lisan",
+            "Wasathul Lisan"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Syin (ش) adalah",
+            "Tafasysyi",
+            "Rakhawah",
+            "Idzlaq",
+            "Idzlaq"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ya (ي) adalah",
+            "Hams",
+            "Tafasysyi",
+            "Liin",
+            "Liin"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ya (ي)",
+            "Aqshal Lisan",
+            "Hafatul Lisan",
+            "Wasathul Lisan",
+            "Wasathul Lisan"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ya (ي) adalah",
+            "Syiddah",
+            "Hams",
+            "Ishmat",
+            "Syiddah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Dhad (ض) adalah",
+            "Hams",
+            "Isthithalah",
+            "Idzlaq",
+            "Isthithalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Dhad (ض)",
+            "Aqshal Lisan",
+            "Hafatul Lisan",
+            "Wasathul Lisan",
+            "Hafatul Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Dhad (ض) adalah",
+            "Ithbaq",
+            "Isthithalah",
+            "Shafir",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Lam (ل) adalah",
+            "Qalqalah",
+            "Ishmat",
+            "Inhiraf",
+            "Inhiraf"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Lam (ل)",
+            "Aqshal Lisan",
+            "Wasathul Lisan",
+            "Hafatul Lisan",
+            "Hafatul Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Lam (ل) adalah",
+            "Qalqalah",
+            "Ishmat",
+            "Idzlaq",
+            "Qalqalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Nun (ن) adalah",
+            "Ghunnah",
+            "Rakhawah",
+            "Inhiraf",
+            "Ghunnah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Nun (ن)",
+            "Hafatul Lisan",
+            "Tharaful Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Nun (ن) adalah",
+            "Rakhawah",
+            "Ghunnah",
+            "Idzlaq",
+            "Rakhawah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ro (ر) adalah",
+            "Takrir",
+            "Hams",
+            "Rakhawah",
+            "Takrir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ro (ر)",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ro (ر) adalah",
+            "Takrir",
+            "Hams",
+            "Bainiyyah",
+            "Hams"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ta (ت) adalah",
+            "Ghunnah",
+            "Hams",
+            "Bainiyyah",
+            "Hams"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ta (ت)",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ta (ت) adalah",
+            "Idzlaq",
+            "Hams",
+            "Ishmat",
+            "Idzlaq"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Tha (ط) adalah",
+            "Ishmat",
+            "Idzlaq",
+            "Bainiyyah",
+            "Ishmat"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Tha (ط)",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Tha (ط) adalah",
+            "Jahr",
+            "Ithbaq",
+            "Tafasysyi",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Dal (د) adalah",
+            "Qalqalah",
+            "Idzlaq",
+            "Rakhawah",
+            "Qalqalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Dal (د)",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Dal (د) adalah",
+            "Ishmat",
+            "Qalqalah",
+            "Shafir",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Sin (س) adalah",
+            "Syiddah",
+            "Shafir",
+            "Tafasysyi",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Sin (س) adalah",
+            "Hafatul Lisan",
+            "Tharaful Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Sin (س) adalah",
+            "Hams",
+            "Shafir",
+            "Tafasysyi",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Shad (ص) adalah",
+            "Syiddah",
+            "Shafir",
+            "Tafasysyi",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Shad (ص)",
+            "Hafatul Lisan",
+            "Tharaful Lisan",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Shad (ص) adalah",
+            "Ithbaq",
+            "Shafir",
+            "Tafasysyi",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Zay (ز) adalah",
+            "Idzlaq",
+            "Shafir",
+            "Tafasysyi",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Zay (ز)",
+            "Makhraj Asy Syafatani",
+            "Hafatul Lisan",
+            "Tharaful Lisan",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Zay (ز) adalah",
+            "Ishmat",
+            "Shafir",
+            "Tafasysyi",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Dzal (ذ) adalah",
+            "Rakhawah",
+            "Qalqalah",
+            "Tafasysyi",
+            "Rakhawah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Dzal (ذ)",
+            "Makhraj Asy Syafatani",
+            "Hafatul Lisan",
+            "Tharaful Lisan",
+            "Tharaful Lisan"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Dzal (ذ) adalah",
+            "Syiddah",
+            "Ishmat",
+            "Rakhawah",
+            "Syiddah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Zha (ظ) adalah",
+            "Rakhawah",
+            "Shafir",
+            "Tafasysyi",
+            "Rakhawah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Zha (ظ)",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Zha (ظ) adalah",
+            "Rakhawah",
+            "Ithbaq",
+            "Tafasysyi",
+            "Tafasysyi"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Tsa (ث) adalah",
+            "Jahr",
+            "Shafir",
+            "Istifal",
+            "Istifal"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Tsa (ث)",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Tharaful Lisan"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Tsa (ث) adalah",
+            "Hams",
+            "Shafir",
+            "Istifal",
+            "Shafir"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Fa (ف) adalah",
+            "Hams",
+            "Jahr",
+            "Ishmat",
+            "Hams"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Fa (ف)",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Fa (ف) adalah",
+            "Ishmat",
+            "Hams",
+            "Rakhawah",
+            "Ishmat"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Wawu (و) adalah",
+            "Hams",
+            "Syiddah",
+            "Liin",
+            "Liin"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Wawu (و)",
+            "Tharaful Lisan",
+            "Makhraj Asy Syafatani",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Wawu (و) adalah",
+            "Jahr",
+            "Liin",
+            "Ithbaq",
+            "Ithbaq"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Ba (ب) adalah",
+            "Qalqalah",
+            "Hams",
+            "Liin",
+            "Qalqalah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Ba (ب)",
+            "Makhraj Asy Syafatani",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani"
+        ))
+
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Ba (ب) adalah",
+            "Qalqalah",
+            "Liin",
+            "Jahr",
+            "Liin"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Salah satu sifat huruf Mim (م) adalah",
+            "Ghunnah",
+            "Rakhawah",
+            "Liin",
+            "Ghunnah"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Dimana letak huruf Mim (م) adalah",
+            "Tharaful Lisan",
+            "Hafatul Lisan",
+            "Makhraj Asy Syafatani",
+            "Makhraj Asy Syafatani"
+        ))
+
+        quizTeori.add(QuizTeoriEntity(
+            "Yang bukan sifat huruf Mim (م) adalah",
+            "Ghunnah",
+            "Bainiyyah",
+            "Liin",
+            "Liin"
         ))
 
         return quizTeori

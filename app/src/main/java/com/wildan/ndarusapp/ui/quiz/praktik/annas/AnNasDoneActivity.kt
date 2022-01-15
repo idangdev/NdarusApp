@@ -3,9 +3,10 @@ package com.wildan.ndarusapp.ui.quiz.praktik.annas
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityAnNasDoneBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.alikhlash.AlIkhlashDoneActivity
 
-class AnNasDoneActivity : AppCompatActivity() {
+class AnNasDoneActivity : BaseActivity() {
 
     companion object{
         const val EXTRA_SCORE = "extra_score"

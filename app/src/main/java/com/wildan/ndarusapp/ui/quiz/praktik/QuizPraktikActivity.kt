@@ -17,11 +17,12 @@ import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlFalaqEntity
 import com.wildan.ndarusapp.data.AlIkhlashEntity
 import com.wildan.ndarusapp.databinding.ActivityQuizPraktikBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.alfalaq.AlFalaqActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.alikhlash.AlIkhlashActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.annas.AnNasActivity
 
-class QuizPraktikActivity : AppCompatActivity() {
+class QuizPraktikActivity : BaseActivity() {
 
     private lateinit var binding: ActivityQuizPraktikBinding
 

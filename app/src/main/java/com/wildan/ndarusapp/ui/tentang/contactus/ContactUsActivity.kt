@@ -7,8 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import com.wildan.ndarusapp.databinding.ActivityContactUsBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class ContactUsActivity : AppCompatActivity() {
+class ContactUsActivity : BaseActivity() {
 
     private lateinit var binding: ActivityContactUsBinding
 

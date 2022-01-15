@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.QalqalahEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailQalqalahBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailQalqalahActivity : AppCompatActivity() {
+class DetailQalqalahActivity : BaseActivity() {
 
     companion object{
         val EXTRA_QALQALAH = "extra_qalqalah"

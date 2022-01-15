@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.AlifLamEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailAlifLamBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailAlifLamActivity : AppCompatActivity() {
+class DetailAlifLamActivity : BaseActivity() {
 
     companion object{
         val EXTRA_ALIF_LAM = "extra_alif_lam"

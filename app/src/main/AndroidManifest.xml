@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.muqodimah.SifatulHurufActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.quiz.praktik.alfalaq.AlFalaqDoneActivity"
             android:exported="false" />
         <activity

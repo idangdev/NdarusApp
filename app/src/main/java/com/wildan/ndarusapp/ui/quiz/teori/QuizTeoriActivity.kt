@@ -9,9 +9,10 @@ import android.widget.Toast
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.QuizTeoriEntity
 import com.wildan.ndarusapp.databinding.ActivityQuizTeoriBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import kotlin.random.Random
 
-class QuizTeoriActivity : AppCompatActivity() {
+class QuizTeoriActivity : BaseActivity() {
 
     private lateinit var binding: ActivityQuizTeoriBinding
     private var PILGAN: String? = null
@@ -41,24 +42,33 @@ class QuizTeoriActivity : AppCompatActivity() {
         }
 
         binding.btnNext.setOnClickListener {
-            if (PILGAN == listQuizTeori[currentPos].answer){
-                currentScore++
+            if (binding.rgPilgan.checkedRadioButtonId == -1){
+                Toast.makeText(this, "Silahkan pilih jawaban", Toast.LENGTH_SHORT).show()
+            }else{
+
+                if (PILGAN == listQuizTeori[currentPos].answer){
+                    currentScore++
+                }
+                nomor++
+                binding.rgPilgan.clearCheck()
+                currentPos = Random.nextInt(listQuizTeori.size)
+                setDataToViews(currentPos)
             }
-            nomor++
-            binding.rgPilgan.clearCheck()
-            currentPos = Random.nextInt(listQuizTeori.size)
-            setDataToViews(currentPos)
         }
 
         binding.btnSubmit.setOnClickListener {
-            if (PILGAN == listQuizTeori[currentPos].answer) {
-                currentScore++
-            }
+            if (binding.rgPilgan.checkedRadioButtonId == -1){
+                Toast.makeText(this, "Silahkan pilih jawaban", Toast.LENGTH_SHORT).show()
+            }else{
+                if (PILGAN == listQuizTeori[currentPos].answer) {
+                    currentScore++
+                }
 
-            val intent = Intent(this, QuizTeoriDoneActivity::class.java)
-            intent.putExtra(QuizTeoriDoneActivity.EXTRA_SCORE, currentScore)
-            startActivity(intent)
-            finish()
+                val intent = Intent(this, QuizTeoriDoneActivity::class.java)
+                intent.putExtra(QuizTeoriDoneActivity.EXTRA_SCORE, currentScore)
+                startActivity(intent)
+                finish()
+            }
         }
 
         binding.btnBack.setOnClickListener {

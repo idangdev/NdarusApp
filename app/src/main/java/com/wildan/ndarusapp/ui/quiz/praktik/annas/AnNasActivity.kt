@@ -16,9 +16,10 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AnNasEntity
 import com.wildan.ndarusapp.databinding.ActivityAnNasBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.alikhlash.AlIkhlashDoneActivity
 
-class AnNasActivity : AppCompatActivity() {
+class AnNasActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAnNasBinding
     private var listAnNas = ArrayList<AnNasEntity>()

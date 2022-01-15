@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.MadEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailMadBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailMadActivity : AppCompatActivity() {
+class DetailMadActivity : BaseActivity() {
 
     companion object{
         val EXTRA_MAD = "extra_mad"

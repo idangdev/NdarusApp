@@ -4,11 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityTentangBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.tentang.catatan.CatatanActivity
 import com.wildan.ndarusapp.ui.tentang.contactus.ContactUsActivity
 import com.wildan.ndarusapp.ui.tentang.referensi.ReferenceActivity
 
-class TentangActivity : AppCompatActivity() {
+class TentangActivity : BaseActivity() {
 
     private lateinit var binding: ActivityTentangBinding
 

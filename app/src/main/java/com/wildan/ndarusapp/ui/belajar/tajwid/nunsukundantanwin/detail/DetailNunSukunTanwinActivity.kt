@@ -5,9 +5,10 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.data.NunSukunTanwinEntity
 import com.wildan.ndarusapp.databinding.ActivityDetailNunSukunTanwinBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.utils.DataDummy
 
-class DetailNunSukunTanwinActivity : AppCompatActivity() {
+class DetailNunSukunTanwinActivity : BaseActivity() {
 
     companion object{
         val EXTRA_NUN_SUKUN_TANWIN = "extra_nun_sukun_tanwin"

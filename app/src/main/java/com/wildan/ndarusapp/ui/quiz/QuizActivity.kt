@@ -4,10 +4,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityQuizBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.quiz.praktik.QuizPraktikActivity
 import com.wildan.ndarusapp.ui.quiz.teori.QuizTeoriActivity
 
-class QuizActivity : AppCompatActivity() {
+class QuizActivity : BaseActivity() {
 
     private lateinit var binding: ActivityQuizBinding
 

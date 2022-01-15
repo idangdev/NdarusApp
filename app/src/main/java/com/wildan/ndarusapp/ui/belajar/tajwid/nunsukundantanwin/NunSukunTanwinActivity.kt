@@ -5,8 +5,9 @@ import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.wildan.ndarusapp.databinding.ActivityNunSukunTanwinBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class NunSukunTanwinActivity : AppCompatActivity() {
+class NunSukunTanwinActivity : BaseActivity() {
 
     private lateinit var binding: ActivityNunSukunTanwinBinding
 
