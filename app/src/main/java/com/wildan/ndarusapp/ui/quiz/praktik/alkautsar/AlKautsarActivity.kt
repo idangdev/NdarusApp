@@ -1,4 +1,4 @@
-package com.wildan.ndarusapp.ui.quiz.praktik.annas
+package com.wildan.ndarusapp.ui.quiz.praktik.alkautsar
 
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -14,36 +14,34 @@ import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
-import com.wildan.ndarusapp.data.AnNasEntity
-import com.wildan.ndarusapp.databinding.ActivityAnNasBinding
-import com.wildan.ndarusapp.ui.base.BaseActivity
+import com.wildan.ndarusapp.data.AlKautsarEntity
+import com.wildan.ndarusapp.databinding.ActivityAlKautsarBinding
 
-class AnNasActivity : BaseActivity() {
+class AlKautsarActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityAnNasBinding
-    private var listAnNas = ArrayList<AnNasEntity>()
+    private lateinit var binding: ActivityAlKautsarBinding
+    private var listAlKautsar = ArrayList<AlKautsarEntity>()
 
     var current_position = 0
     var score = 0
     var jumlahAyat = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityAnNasBinding.inflate(layoutInflater)
+        binding = ActivityAlKautsarBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(AnNasViewModel::class.java)
-        val anNas = viewModel.getAnNas()
+        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory()).get(AlKautsarViewModel::class.java)
+        val alKautsar = viewModel.getAlKautsar()
 
-        listAnNas.addAll(anNas)
-        jumlahAyat = listAnNas.size
-        binding.tvNo.text = "Ayat ${listAnNas[current_position].ayatId}"
+        listAlKautsar.addAll(alKautsar)
+        jumlahAyat = listAlKautsar.size
+        binding.tvNo.text = "Ayat ${listAlKautsar[current_position].ayatId}"
 
         binding.btnMic.setOnClickListener {
             checkAudioPermission()
             binding.btnMic.setColorFilter(ContextCompat.getColor(this, R.color.mic_enabled_color))
             startSpeechToText()
         }
-
         binding.btnBack.setOnClickListener {
             finish()
         }
@@ -82,32 +80,32 @@ class AnNasActivity : BaseActivity() {
             override fun onResults(bundle: Bundle) {
                 val result = bundle.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION)
                 if (result != null) {
-                    if (current_position < listAnNas.size - 1) {
-                        if (result[0] == listAnNas[current_position].ayat) {
+                    if (current_position < listAlKautsar.size - 1) {
+                        if (result[0] == listAlKautsar[current_position].ayat) {
                             current_position++
-                            binding.tvNo.text = "Ayat ${listAnNas[current_position].ayatId}"
+                            binding.tvNo.text = "Ayat ${listAlKautsar[current_position].ayatId}"
                             score++
                             Toast.makeText(applicationContext, "Benar", Toast.LENGTH_SHORT).show()
                         } else {
                             current_position++
-                            binding.tvNo.text = "Ayat ${listAnNas[current_position].ayatId}"
+                            binding.tvNo.text = "Ayat ${listAlKautsar[current_position].ayatId}"
                             Toast.makeText(applicationContext, "Kurang Tepat", Toast.LENGTH_SHORT)
                                 .show()
                         }
-                    } else if (result[0] == listAnNas[current_position].ayat) {
+                    } else if (result[0] == listAlKautsar[current_position].ayat) {
                         score++
                         Toast.makeText(applicationContext, "Benar", Toast.LENGTH_SHORT).show()
-                        val intent = Intent(applicationContext, AnNasDoneActivity::class.java)
-                        intent.putExtra(AnNasDoneActivity.EXTRA_SCORE, score)
-                        intent.putExtra(AnNasDoneActivity.EXTRA_JUMLAH_AYAT, jumlahAyat)
+                        val intent = Intent(applicationContext, AlKautsarDoneActivity::class.java)
+                        intent.putExtra(AlKautsarDoneActivity.EXTRA_SCORE, score)
+                        intent.putExtra(AlKautsarDoneActivity.EXTRA_JUMLAH_AYAT, jumlahAyat)
                         startActivity(intent)
                         finish()
                     } else {
                         Toast.makeText(applicationContext, "Kurang Tepat", Toast.LENGTH_SHORT)
                             .show()
-                        val intent = Intent(applicationContext, AnNasDoneActivity::class.java)
-                        intent.putExtra(AnNasDoneActivity.EXTRA_SCORE, score)
-                        intent.putExtra(AnNasDoneActivity.EXTRA_JUMLAH_AYAT, jumlahAyat)
+                        val intent = Intent(applicationContext, AlKautsarDoneActivity::class.java)
+                        intent.putExtra(AlKautsarDoneActivity.EXTRA_SCORE, score)
+                        intent.putExtra(AlKautsarDoneActivity.EXTRA_JUMLAH_AYAT, jumlahAyat)
                         startActivity(intent)
                         finish()
                     }

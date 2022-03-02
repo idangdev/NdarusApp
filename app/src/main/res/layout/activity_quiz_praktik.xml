@@ -51,79 +51,132 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="30dp"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintTop_toBottomOf="@id/label_title_app"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintBottom_toBottomOf="parent">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginRight="5dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_an_nas"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:backgroundTint="@color/gray"
-                android:drawableTop="@drawable/an_nas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
                 android:text="An Nas"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                android:textSize="12sp"
-                android:fontFamily="@font/montserrat_bold"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                app:cornerRadius="15dp"
-                android:layout_marginRight="5dp"
-                />
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_al_falaq"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:backgroundTint="@color/gray"
-                android:drawableTop="@drawable/al_falaq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
                 android:text="Al Falaq"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                android:fontFamily="@font/montserrat_bold"
-                android:textSize="12sp"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                app:cornerRadius="15dp"
-                android:layout_marginLeft="5dp"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center"
-            android:layout_marginLeft="5dp">
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_an_nas" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_al_ikhlash"
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:backgroundTint="@color/gray"
-                android:drawableTop="@drawable/al_ikhlash"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
                 android:text="Al Ikhlash"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
                 android:textColor="@color/green_500"
-                android:fontFamily="@font/montserrat_bold"
-                android:textSize="12sp"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                app:cornerRadius="15dp"
-                />
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_al_falaq" />
 
-        </LinearLayout>
 
-    </LinearLayout>
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_al_kautsar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Al Kautsar"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_al_ikhlash" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_al_fil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Al Fil"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_al_kautsar" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_al_ashr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Al \'Ashr"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_al_fil" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_at_takatsur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="At Takatsur"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_al_ashr" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

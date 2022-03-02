@@ -67,7 +67,7 @@
                 android:layout_width="150dp"
                 android:layout_height="150dp"
                 android:backgroundTint="@color/gray"
-                android:drawableTop="@drawable/ic_danger"
+                android:drawableTop="@drawable/ic_catatan"
                 android:text="Catatan"
                 android:textColor="@color/green_500"
                 android:textSize="12sp"
@@ -96,21 +96,46 @@
 
         </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_contact_us"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
             android:backgroundTint="@color/gray"
+            android:drawableTop="@drawable/ic_contact_us"
             android:text="Contact Us"
-            android:drawableLeft="@drawable/ic_contact_us"
-            android:paddingLeft="90dp"
-            android:paddingRight="90dp"
-            android:drawableTint="@color/green_500"
             android:textColor="@color/green_500"
             android:fontFamily="@font/montserrat_bold"
             android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginRight="5dp"
             app:cornerRadius="15dp"
             />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_info_app"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/gray"
+            android:drawableTop="@drawable/ic_info_app"
+            android:text="Info Aplikasi"
+            android:textColor="@color/green_500"
+            android:fontFamily="@font/montserrat_bold"
+            android:textSize="12sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="5dp"
+            app:cornerRadius="15dp"
+            />
+
+
+    </LinearLayout>
+
 
     </LinearLayout>
 

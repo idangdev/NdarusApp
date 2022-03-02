@@ -7,6 +7,7 @@ import com.wildan.ndarusapp.databinding.ActivityTentangBinding
 import com.wildan.ndarusapp.ui.base.BaseActivity
 import com.wildan.ndarusapp.ui.tentang.catatan.CatatanActivity
 import com.wildan.ndarusapp.ui.tentang.contactus.ContactUsActivity
+import com.wildan.ndarusapp.ui.tentang.infoapp.InfoAppActivity
 import com.wildan.ndarusapp.ui.tentang.referensi.ReferenceActivity
 
 class TentangActivity : BaseActivity() {
@@ -30,6 +31,11 @@ class TentangActivity : BaseActivity() {
 
         binding.btnContactUs.setOnClickListener {
             val intent = Intent(this, ContactUsActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnInfoApp.setOnClickListener {
+            val intent = Intent(this, InfoAppActivity::class.java)
             startActivity(intent)
         }
 

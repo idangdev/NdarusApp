@@ -13,6 +13,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.quiz.praktik.AtTakatsur.AtTakatsurDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.AtTakatsur.AtTakatsurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alashr.AlAshrDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alashr.AlAshrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alfil.AlFilDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alfil.AlFilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alkautsar.AlKautsarDoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quiz.praktik.alkautsar.AlKautsarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.tentang.infoapp.InfoAppActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.muqodimah.SifatulHurufActivity"
             android:exported="false" />
         <activity

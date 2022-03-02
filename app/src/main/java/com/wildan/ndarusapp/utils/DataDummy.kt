@@ -653,7 +653,7 @@ object DataDummy {
 
         anNas.add(AnNasEntity(
             3,
-            "الهي الناس"
+            "اله الناس"
         ))
 
         anNas.add(AnNasEntity(
@@ -742,7 +742,144 @@ object DataDummy {
 
     }
 
-        /***
+    /***
+     * ===================== AL KAUTSAR ============================
+     */
+    fun generateAlKautsar(): List<AlKautsarEntity>{
+        var alKautsar = ArrayList<AlKautsarEntity>()
+
+        alKautsar.add(AlKautsarEntity(
+            1,
+            "انا اعطيناك الكوثر"
+        ))
+
+        alKautsar.add(AlKautsarEntity(
+            2,
+            "فصل لربك وانحر"
+        ))
+
+        alKautsar.add(AlKautsarEntity(
+            3,
+            "ان شانئك هو الابتر"
+        ))
+
+        return alKautsar
+
+    }
+
+
+    /***
+     * ===================== AL FIL ============================
+     */
+    fun generateAlFil(): List<AlFilEntity>{
+        var alFil = ArrayList<AlFilEntity>()
+
+        alFil.add(AlFilEntity(
+            1,
+            "الم تر كيف فعل ربك باصحاب الفيل"
+        ))
+
+        alFil.add(AlFilEntity(
+            2,
+            "الم يجعل كيدهم في تضليل"
+        ))
+
+        alFil.add(AlFilEntity(
+            3,
+            "وارسل عليهم طيرا ابابيل"
+        ))
+
+        alFil.add(AlFilEntity(
+            4,
+            "ترميهم بحجاره من سجيل"
+        ))
+
+        alFil.add(AlFilEntity(
+            5,
+            "فجعلهم كعصف ماكول"
+        ))
+
+        return alFil
+
+    }
+
+
+    /***
+     * ===================== AL 'ASHR ============================
+     */
+    fun generateAlAshr(): List<AlAshrEntity>{
+        var alAshr = ArrayList<AlAshrEntity>()
+
+        alAshr.add(AlAshrEntity(
+            1,
+            "والعصر"
+        ))
+
+        alAshr.add(AlAshrEntity(
+            2,
+            "ان الانسان لفي خسر"
+        ))
+
+        alAshr.add(AlAshrEntity(
+            3,
+            "الا الذين امنوا وعملوا الصالحات وتواصوا بالحق وتواصوا بالصبر"
+        ))
+
+        return alAshr
+
+    }
+
+    /***
+     * ===================== AT TAKATSUR ============================
+     */
+    fun generateAtTakatsur(): List<AtTakatsurEntity>{
+        var atTakatsur = ArrayList<AtTakatsurEntity>()
+
+        atTakatsur.add(AtTakatsurEntity(
+            1,
+            "الهاكم التكاثر"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            2,
+            "حتى زرتم المقابر"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            3,
+            "كلا سوف تعلمون"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            4,
+            "ثم كلا سوف تعلمون"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            5,
+            "كلا لو تعلمون علم اليقين"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            6,
+            "لاترون الجحيم"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            7,
+            "ثم لترونها عين اليقين"
+        ))
+
+        atTakatsur.add(AtTakatsurEntity(
+            8,
+            "ثم لتسالن يومئذ عن النعيم"
+        ))
+
+        return atTakatsur
+
+    }
+
+    /***
      * ===================== QUIZ TEORI =============================
      */
 
