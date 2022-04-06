@@ -361,79 +361,72 @@ object DataDummy {
 
         mad.add(MadEntity(
             "mad1",
-            "Mad Arid Lissukun",
-            "Mad Arid Lissukun adalah cara memanjangkan bacaan pada saat berhenti (waqof) - baik di akhir maupun di tengah ayat\n\n- Mad adalah panjang bacaan\n- Arid artinya yang bertemu\n- Lis artinya karena\n- Sukun artinya mati\n\nHukum Mad Arid Lissukun berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf (hidup) berbasis Fathah, Fathatain, Kasrah, Kasratain, Dhammah dan Dhammatain yang berada di dalam satu kata atau kalimat\n\nPanjang bacaan Mad Arid Lissukun boleh 2, 4, atau 6 harakat.",
-            R.drawable.mad_arid_lissukun
+            "Mad Thobi\'ii",
+            "MAD artinya : panjang.\nTHOBI\'II artinya : biasa.\nHukum bacaan disebut MAD THOBI\'II yakni apabila huruf yang dipanjangkan bunyi suaranya berupa :\na. Huruf berharokat dhommah dan sesudahnya terdapat huruf WAU SUKUN (وْ).\nb. Huruf berharokat kasroh dan sesudahnya terdapat huruf YAA\' SUKUN (يْ).\nc. Huruf berharokat fathah dan sesudahnya terdapat huruf ALIF (ا).\n\nHuruf-huruf ا, يْ, وْ disebut huruf MAD.\nCara membacanya harus dipanjangkan satu ALIF / dua harokat.",
+            R.drawable.mad_thobii
         ))
 
         mad.add(MadEntity(
             "mad2",
-            "Mad Badal",
-            "Yaitu mad yang terjadi karena ada huruf mad sebagai ganti dari hamzah yang dibuang.\nHal ini sejalan dengan kata BADAL yang berarti GANTI ukuran\nPanjangnya adalah 2 harakat/ketukan atau sama dengan 1 alif",
-            R.drawable.mad_badal
+            "Mad Layyin",
+            "MAD artinya : panjang.\nLAYYIN atau LEIN artinya : lunak atau lemas.\nHukum bacaan disebut MAD LAYYIN yakni apabila ada huruf MAD, baik yang berupa WAU SUKUN (وْ) atau YAA\' SUKUN (يْ) didahului oleh huruf yang berharokat FATHAH.\nCara membacanya dengan lunak dan lemas.",
+            R.drawable.mad_layyin
         ))
 
         mad.add(MadEntity(
             "mad3",
-            "Mad Iwadh Anit Tanwin",
-            "Mad Iwadh Anit Tanwin atau sering disebut Mad Iwadh adalah salah satu cabang dari Hukum Mad Far\' yang berlaku untuk huruf Mad Thobi\'i berbasis Fathatain.\n\nIwadh artinya ganti waqof pada huruf Alif pengganti dari fathatain\nSama seperti hukum Mad Liin dan Mad Arid Lissukun, Mad Iwadh merupakan hukum mad yang berlaku pada saat bacaan berhenti (waqof), baik di ujung maupun di tengah ayat.\n\nPanjang bacaan Mad Iwadh adalah 1 alif atau 2 harakat. Dan cara membacanya adalah dengan menghilangkan tanwin menjadi huruf ashli, seperti cara membaca hukum Mad Thobi\'i.",
-            R.drawable.mad_iwadh_anit_tanwin
+            "Mad Wajib Muttashil",
+            "MAD artinya : panjang.\nWAJIB artinya : harus.\nMUTTASHIL artinya : bersambung.\nHukum bacaan disebut MAD WAJIB MUTTASHIL, yakni apabila ada MAD THOBI\'II bertemu dengan HAMZAH (ء) berharokat hidup di dalam satu kata/kalimat.\nCara membacanya wajib dipanjangkan sampai dua setengah ALIF atau lima harokat atau dua setengah kali panjang MAD THOBI\'II.",
+            R.drawable.mad_wajib_muttashil
         ))
 
         mad.add(MadEntity(
             "mad4",
             "Mad Jaiz Munfashil",
-            "Mad Jaiz Munfashil adalah salah satu cabang dari Hukum Mad Far\'i.\n\n- Jaiz artinya boleh.\n- Munfashil artinya di luar kata atau terpisah\n\nMad Jaiz Munfashil berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf Alif berharakat Fathah, Kasrah, atau Dhammah\nDi dalam Al quran, Mad Jaiz Munfashil diberi tanda garis tipis melengkung di bagian atas huruf Mad Thobi\'i atau berada di antara huruf Mad Thobi\'i dan huruf Alif",
+            "MAD artinya : panjang.\nJAIZ artinya : boleh.\nMUNFASHIL artinya : terpisah.\nHukum bacaan disebut MAD JAIZ MUNFASHIL yakni apabila MAD THOBI\'II berhadapan dengan HAMZAH (ء) di lain perkataan.\nCara membacanya lebih baik dipanjangkan seperti panjangnya MAD WAJIB MUTTASHIL, tetapi juga boleh dipanjangkan seperti panjang bacaan MAD THOBI\'II",
             R.drawable.mad_jaiz_munfashil
         ))
 
         mad.add(MadEntity(
             "mad5",
-            "Mad Lazim Harfi Mukhaffaf",
-            "Mad Lazim Harfi Mukhaffaf adalah bagian dari hukum Mad Far\'i yang terjadi pada huruf-huruf tunggal pada permulaan surah-surah di dalam Al Quran. Dan hanya dibaca nama hurufnya saja.\n- Lazim artinya harus atau wajib\n- Hargi artinya huruf mad terjadi karena huruf (bukan pada kata/kalimat)\n- Mukhaffaf artinya ringan cara mengucapkannya\n\n- 1 Huruf Alif, cukup dibaca 1 harakat\n- 5 Huruf \'haya thahara\', yaitu ح ي ط ه ر dibaca panjang 2 harakat\n- 8 Huruf \'shadqafnun sama lam kaf \'ain\', yaitu ص ق ن س م ل ك ع \nDibaca 6 harakat. Tidak dibaca dengung (Idgham), kecuali huruf \'Ain pada surah Maryam dan huruf Mim bertasydid",
-            R.drawable.mad_lazim_harfi_mukhaffaf
+            "Mad \'Aridl Lissukun",
+            "MAD artinya : panjang.\n\'ARIDL artinya : tiba-tiba ada.\nLI artinya : karena.\nSUKUN artinya : mati.\nHukum bacaan disebut MAD \'ARIDL LISSUKUN yakni apabila ada Mad Thobi\'i atau Mad Layyin dan sesudahnya ada waqof (tempat berhenti).\nCara membacanya ada 3 macam :\n\na. Yang lebih utama, yakni dibaca panjang sama dengan MAD WAJIB MUTASHIL (tiga alif atau enam harokat).\nb. Yang pertengahan (sedang), yakni dibaca dua ALIF atau empat harokat (dua kali MAD THOBI\'II).\nc. Yang pendek, yakni boleh hanya dibaca seperti MAD THOBI\'II biasa (dua harokat).",
+            R.drawable.mad_aridl_lissukun
         ))
 
         mad.add(MadEntity(
             "mad6",
-            "Mad Lazim Kilmi Mutsaqqal",
-            "Mad Lazim Kilmi Mutsaqqal atau sering disebut Mad Lazim Muthawwal adalah salah satu cabang dari 11 Hukum Mad Far\'i\n\n- Lazim artinya pasti atau wajib\n- Kilmi atau kalimi artinya perkataan mad terjadi karena berada di dalam suatu perkataan (kata)\n- Mutsaqqal artinya diberatkan, berat cara mengucapkannya\n- Sedangkan Muthawwal artinya dipanjangkan\n\nHukum Mad Lazim Kilmi Mutsaqqal berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf bertasydid\n\nPanjang bacaan Mad Lazim Kilmi Mutsaqqal adalah wajib 6 harakat (tidak dapat ditawar)",
-            R.drawable.mad_lazim_kilmi_mutsaqqal
+            "Mad Badal",
+            "MAD artinya : panjang.\nBADAL artinya : ganti.\nHukum bacaan disebut sebagai MAD BADAL yakni apabila ada HAMZAH (ء) bertemu dengan MAD yang berasal dari HAMZAH SUKUN, kemudian hamzah ini diubah dan diganti dengan ALIF (ا), WAU (و), atau YAA\' (ي).\nCara membacanya harus dipanjangkan satu alif atau dua harokat seperti MAD THOBI\'II.",
+            R.drawable.mad_badal
         ))
 
         mad.add(MadEntity(
             "mad7",
-            "Mad Lazim Mukhaffaf Kalimi",
-            "Mad Lazim Mukhaffaf Kalimi terjadi apabila huruf mad bertemu oleh huruf yang berbaris sukun dalam satu kata. Hanya terdapat pada 2 tempat di dalam Al Quran :\n\n- Surat Yunus ayat 51\n- Surat Yunus ayat 91\nMad Lazim Mukhaffaf kalimi dibaca panjang 6 harakat.",
-            R.drawable.mad_lazim_mukhaffaf_kalimi
+            "Mad Lazim Mutsaqqol Kilmi",
+            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nMUTSAQQOL artinya : diberatkan.\nKILMI berasal dari kata KALIMAH artinya : kata/kalimat.\nHukum bacaan disebut MAD LAZIM MUTSAQQOL KILMI yakni apabila MAD THOBI\'II berhadapan dengan huruf yang bertasydid di dalam satu perkataan.\nCara membacanya harus dipanjangkan lebih dahulu sepanjang 3 alif atau 6 harokat baru ditasydidkan.",
+            R.drawable.mad_lazim_mutsaqqol_kilmi
         ))
 
         mad.add(MadEntity(
             "mad8",
-            "Mad Liin (Mad Layyin)",
-            "Hukum Mad Liin berlaku apabila huruf berbaris Fathah bertemu dengan huruf Waw Sukun dan Ya sukun dan berada dalam satu kata atau kalimat dengan satu huruf setelahnya. Artinya jika terdapat lebih dari satu huruf setelahnya, maka tidak terjadi hukum Mad Liin.\n\nCara membacanya adalah dengan membaca huruf berbaris Fathah terlebih dahulu, lalu langsung disambung dengan Waw SUkun atau Ya sukun (dibaca panjang). Setelah itu dikunci dengan huruf sesudahnya.\nPanjang bacaan Mad Lin boleh 2 harakat, 4 harakat, atau 6 harakat (pilih salah satu).",
-            R.drawable.mad_lin
+            "Mad Lazim Mukhoffaf Kilmi",
+            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nMUKHOFFAF artinya : diringankan.\nKILMI berasal dari kata KALIMAH artinya : karta/kalimat.\nHukum bacaan disebut MAD LAZIM MUKHOFFAF KILMI yakni apabila MAD THOBI\'II bertemu dengan huruf yang berharokat SUKUN tidak di akhir perkataan.\nCara membacanya seperti MAD LAZIM MUTSAQQOL KILMI (dipanjangkan sampai tiga alif atau enam harokat).\nDi dalam Al-Qur\'an yang menurut hukum ini hanya ada satu contoh yang ada di dua tempat dalam surat Yunus yaitu :",
+            R.drawable.mad_lazim_mukhoffaf_kilmi
         ))
 
         mad.add(MadEntity(
             "mad9",
-            "Mad Tamkin",
-            "Mad Tamkin adalah salah satu cabang dari hukum Mad Far\'i yang berlaku untuk huruf Waw Sukun bertemu Waw Berharakat, dan Ya Sukun bertemu Ya Berharakat.\n\n- Tamkin artinya penetapan\nPenetapan ini berlaku :\n\n- Apabila huruf berharakat Kasrah bertemu huruf Ya Sukun (يْ), dan Huruf setelahnya adalah huruf Ya berharakat (يَ يِ يُ)\n- Dan apabila huruf berharakat Dhammah bertemu Waw Sukun (وْ), dan setelahnya adalah huruf Waw Berharakat (وَ وِ وُ)\n\nMaka cara membacanya sama seperti membaca hukum Mad Thobi\'i, serta panjang bacaannya adalah 2 harakat",
-            R.drawable.mad_tamkin
+            "Mad Lazim Harfi Mutsaqqol",
+            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nHARFI berasal dari kata HARFUN artinya : huruf.\nMUTSAQQOL artinya : diberatkan.\nHukum bacaan disebut MAD LAZIM HARFI MUTSAQQOL yakni apabila permulaan surat dari Al-Qur\'an terdapat salah satu atau lebih dari huruf-huruf NUN (ن), QOF (ق), SHOD (ص), \'AIN (ع), SIN (س), LAM (ل), KAF (ك), dan MIM (م).\nHuruf-huruf ini terhimpun dalam perkataan :\nنَقُصَ عَسَلُكُمْ\ndan sesudah MAD terdapat suara huruf mati yang diidghomkan atau ditasydidkan.\nCara membacanya harus dipanjangkan, yaitu tiga ALIF atau enam harokat.",
+            R.drawable.mad_lazim_harfi_mutsaqqol
         ))
 
         mad.add(MadEntity(
             "mad10",
-            "Mad Thabi\'i",
-            "Mad Thobi\'i adalah salah satu cabang dari Hukum Mad. Mad Thobi\'i artinya biasa atau alami, yaitu tidak kurang dan tidak lebih. Dibaca panjang 1 alif atau 2 harakat.\n\nMad Thobi\'i berlaku apabila :\n- Huruf berharakat Fathah bertemu dengan alif (ا)\n- Huruf berharakat Kasrah bertemu huruf Ya Sukun (يْ)\n- Dan Dhammah bertemu Waw Sukun (وْ)\nMaka huruf-huruf tersebut dibaca panjang dua harakat.",
-            R.drawable.mad_thabii
-        ))
-
-        mad.add(MadEntity(
-            "mad11",
-            "Mad Wajib Muttashil",
-            "Mad Muttashil atau Mad Wajib, sering disebut juga dengan Mad Wajib Muttashil, merupakan salah satu cabang dari Hukum Mad Far\'i\n\n- Mad merupakan panjang bacaan\n- Wajib adalah harus\n- Muttashil artinya bersambung\n\nHukum Mad Wajib Muttashil adalah hukum tajwid yang berlaku apabila huruf Mad Thobi\'i bertemu dengan huruf Hamzah berharakat Fathah atau Fathatain, Kasrah atau Kasratain, dan Dhammah atau Dhammatain.\n\nKuncinya adalah huruf Mad Thobi\'i dan Hamzah dalam keadaan bersambung atau dalam satu kata.\n\nPanjang bacaan Hukum Mad Wajib Muttashil adalah 6 harakat (tidak dapat ditawar).",
-            R.drawable.mad_wajib_muttashil
+            "Mad Lazim Harfi Mukhoffaf",
+            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nHARFI berasal dari kata HARFUN artinya : huruf.\nMUKHOFFAF artinya : diringankan.\nHukum bacaan disebut MAD LAZIM MUKHOFFAF yakni apabila ada permulaan surat dari Al-Qur\'an terdapat salah satu atau lebih dari huruf-huruf ر ه ط ي ح.\nHuruf-huruf ini terhimpun dalam perkataan : حَيٌّ طَهُرَ\n\nCara membacanya harus dipanjangkan satu Alif atau dua harokat atau sama dengan MAD THOBI\'II.",
+            R.drawable.mad_lazim_harfi_mukhoffaf
         ))
 
         return mad
