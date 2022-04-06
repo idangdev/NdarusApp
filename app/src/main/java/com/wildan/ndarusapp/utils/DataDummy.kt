@@ -485,25 +485,25 @@ object DataDummy {
         mimSukun.add(
             MimSukunEntity(
             "mim1",
-            "Idgham Mitslain",
-            "Idgham Mitslain atau sering disebut dengan Idgham Mimi adalah hukum tajwid yang berlaku untuk huruf Mim Sukun (مْ) bertemu dengan huruf Mim Berharokat (مَ مِ مُ).\n\n- Dinamakan Mitslain karena terjadinya pertemuan dua huruf yang makhraj dan sifatnya sama persis (identik), tapi \"dikhususkan\" hanya untuk huruf Mim Sukun bertemu Mim Berharakat.\n- Selain dari huruf Mim tersebut, maka yang berlaku untuk pertemuan 2 huruf yang sama (Sukun dan Berharakat) adalah Hukum Idgham Mutamasilain dan Hukum Mad Tamkin.",
-            R.drawable.idgham_mitslain
+            "Ikhfaa Syafawi",
+            "IKHFAA\' artinya : menyamarkan atau menyembunyikan.\nSYAFAWI asal katanya SYAFATUN artinya : bibir.\nHukum bacaan disebut IKHFAA\' SYAFAWI, yakni apabila mim sukun (مْ) bertemu dengan ba\' (ب).\nCara membacanya harus disuarakan samar-samar dibibir dan didengungkan.",
+            R.drawable.ikhfaa_syafawi
         ))
 
         mimSukun.add(
             MimSukunEntity(
             "mim2",
-            "Ikhfa Syafawi",
-                "Ikhfa Syafawi adalah hukum tajwid yang berlaku apabila huruf Mim Sukun (مْ) bertemu dengan huruf Ba (ب)\n\n- Ikhfa artinya menyamarkan atau menyembunyikan\n- Syafawi artinya bibir\n\nDinamakan Ikhfa Syafawi karena makhraj dari huruf Mim dan Ba merupakan pertemuan antara bibir atas dan bibir bawah.",
-            R.drawable.ikhfa_syafawi
+            "Idghom Mimi",
+                "IDGHOM artinya : memasukkan atau mentasydidkan.\nMIMI artinya : mim/mendengung.\nHukum bacaan disebut IDGHOM MIMI atau IDGHOM MUTAMATSILAIN, yakni apabila mim sukun (مْ) bertemu sesama mim (م).\nCara membacanya adalah menyuarakan mim rangkap atau ditasydidkan.",
+            R.drawable.idghom_mimi
         ))
 
         mimSukun.add(
             MimSukunEntity(
             "mim3",
-            "Izhar Syafawi",
-                "Hukum Izhar Syafawi adalah hukum tajwid yang berlaku apabila huruf Mim Sukun (مْ) bertemu dengan semua huruf hijaiyah, kecuali huruf Mim dan Ba",
-            R.drawable.izhar_syafawi
+            "Idhar Syafawi",
+                "IDHAR artinya : menjelaskan.\nSYAFAWI asal katanya SYAFATUN artinya : bibir.\nHukum bacaan disebut IDHAR SYAFAWI, yakni apabila ada mim sukun (مْ) bertemu dengan salah satu huruf yang ke 26. yaitu semua huruf hijaiyah selain huruf mim (م) dan ba (ب).\nCara membacanya adalah terang dan jelas di bibir dengan mulut tertutup. Dan harus lebih dijelaskan (di Idh-harkan) lagi apabila mim sukun (مْ) bertemu dengan huruf wau (و) dan fa\' (ف).",
+            R.drawable.idhar_syafawi
         ))
 
         return mimSukun
@@ -515,49 +515,41 @@ object DataDummy {
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun1",
-            "Idgham Bighunnah",
-            "Hukum Idgham Bighunnah atau sering disebut Idgham Ma'al Ghunnah adalah hukum tajwid yang berlaku apabila :\n\nNun Sukun (نْ) atau Tanwin bertemu dengan huruf Mim, Nun, Waw, Ya (م ن و ي) secara terpisah atau tidak dalam satu kata maupun kalimat. Maksud dari kata \"terpisah\" di sini akan dibagas di bagian bawah.\n\n- Bi artinya dengan\n- Ghunnah artinya dengung\n- Sementara Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya, atau bahasa lainnya di-tasydid-kan.\n\nCara membaca Idgham Bighunnah adalah dengan meleburkan Nun Sukun atau Tanwin menjadi suara huruf di depannya, atau keempat huruf tersebut seolah diberi tanda tasydid, diiringi dengan menggunakan suara dengung 1 alif - 1 1/2 Alif atau sekitar 2 - 3 harakat.",
-            R.drawable.idgham_bigunnah
+            "Idhar Halqi",
+            "IDHAR artinya : Menjelaskan\nHALQI berasal dari kata \'HALQ\' artinya : tenggorokan.\nHukum bacaan disebut IDHAR HALQI, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf-huruf Halqi.\n\nHuruf-huruf Halqi ada 6, yaitu :\nء ه ح خ ع غ\nHuruf-huruf ini disebut Halqi karena Makhroj (tempat keluarnya suara huruf) tersebut adalah kerongkongan.\nCara membaca nun sukun atau tanwin yang demikian itu harus terang, jelas dan pendek, bunyi suaranya tetap jelas, tidak samar dan tidak mendengung.",
+            R.drawable.idhar_halqi
         ))
 
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun2",
-            "Idgham Bilaghunnah",
-            "Hukum Idgham Bilaghunnah adalah hukum tajwid yang berlaku apabila Nun Sukun (نْ) atau tanwin bertemu dengan lam (ل) atau Ro (ر) tanpa menggunakan suara dengung\n\n- Bila artinya tidak\n- Ghunnah artinya dengung\n- Sementara Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya, atau bahasa lainnya di tasydid-kan.\n\nCara membacanya adalah dengan meleburkan Nun Sukun (نْ) atau Tanwin menjadi suara huruf Lam (ل) atau Ro (ر), atau lafaz kedua huruf tersebut seolah diberi tanda tasydid, tanpa diikuti suara dengung (ghunnah).",
-            R.drawable.idgham_bilaghunnah
+            "Idghom Bighunnah",
+            "IDGOM artinya : memasukkan atau mentasydidkan.\nBIGHUNNAH artinya : dengan mendengung.\nHukum bacaan disebut IDGHOM BIGHUNNAH, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu dari huruf yang empat ini, yaitu :\nي ن م و\nCara membacanya : nun sukun atau tanwin itu dimasukkan menjadi satu dengan huruf sesudahnya atau ditasydidkannya dengan mendengung.",
+            R.drawable.idghom_bighunnah
         ))
 
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun3",
-            "Ikhfa Haqiqi",
-                "Ikhfa secara harfiah berarti menyamarkan atau menyembunyikan.\n\nDidalam ilmu tajwid, Ikhfa Haqiqi adalah menyamarkan huruf Nun Sukun (نْ) atau tanwin kedalam huruf sesudahnya.\n\nHuruf tersebut sebanyak 15 huruf yaitu:\n\nت ث د ذ ز س ش ص ض ط ظ ف ق ك\n\nKe-15 huruf tersebut tidak bertasydid dan harus dibaca dengung (ghunnah)\n\n Cara membacanya adalah dengan mengeluarkan suara Nun Sukun (نْ) atau Tanwin dari rongga hidung sehingga terlihat samar atau menjadi suara \'N\' atau \'NG\' kemudian disambut dengan dengung 1 - 1 1/2 Alif atau sekitar 2 - 3 harakat, setelah itu baru masuk ke huruf sesudahnya.",
-            R.drawable.ikfa_haqiqi
+            "Idghom Bilaghunnah",
+                "IDGHOM artinya : memasukkan atau mentasydidkan.\nBILAGHUNNAH artinya : dengan tidak mendengung.\nHukum bacaan disebut IDGHOM BILAGHUNNAH, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan ل (lam) dan ر (ro\')\nCara membacanya yaitu dengan meng-idghomkan nun atau tanwin pada LAM dan RO\', tetapi tanpa mendengung.",
+            R.drawable.idghom_bilaghunnah
         ))
 
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun4",
-            "Iqlab",
-                "Iqlab adalah salah satu hukum tajwid yang berlaku apabila huruf Nun Sukun (نْ) atau Tanwin bertemu dengan huruf Ba (ب)\n\n- Menurut bahasa, Iqlab artinya mengubah atau menggantikan sesuatu dari bentuknya.\n- Cara membacanya adalah dengan menggantikan huruf Nun Sukun (نْ) atau Tanwin menjadi suara huruf mim sukun (مْ). Sehingga pada saat akan bertemu dengan huruf Ba (ب) bibir atas dan bawah dalam posisi tertutup, diiringi dengan suara dengung sekitar 2 harakat.\n\n- Hukum Iqlab di dalam Al Quran, sudah ditandai dengan huruf mim kecil (م) dan diletakkan di atas antara Nun Sukun (نْ) atau Tanwin dengan huruf Ba (ب)",
-            R.drawable.iqlab
+            "Iqlaab",
+                "IQLAAB artinya : menukar atau mengganti\nHukum bacaan disebut IQLAAB, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan huruf ب (ba\').\nCara membacanya adalah dengan menyuarakan huruf nun atau tanwin menjadi suara م (mim), dengan merapatkan dua bibir serta mendengung.",
+            R.drawable.iqlaab
         ))
 
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun5",
-            "Izhar Halqi",
-                "Izhar Halqi adalah salah satu cabang dari Hukum Izhar yang ada di dalam Ilmu Tajwid. Izhar artinya jelas atau terang.\n\nDinamakan Izhar Halqi berlaku apabila Nun Sukun (نْ) atau Tanwin bertemu dengan huruf Alif, \'Ain, Ghayn, Ha, Kha, Ha\' (ء) dan Hamzah (ا ع غ ح خ ه)\n\nNamun Nun Sukun (نْ) atau Tanwin jarang bertemu dengan huruf Hamzah (ء) akan tetapi huruf hamzah tetap salah satu huruf Izhar Halqi.\n\n- Cara membaca Izhar Halqi harus jelas atau terang, dan tidak berdengung.",
-            R.drawable.izhar_halqi
-        ))
-
-        nunSukunTanwin.add(
-            NunSukunTanwinEntity(
-            "nun6",
-            "Izhar Wajib",
-                "Hukum Izhar Wajib atau disebut juga Izhar Mutlaq adalah salah satu cabang dari Hukum Izhar. Cara membacanya jelas atau terang dan tidak berdengung.\n\nIzhar dibaca apabila Nun Sukun (نْ) bertemu dengan huruf (ي و م ن) dalam keadaan SAMBUNG atau DALAM SATU KATA/KALIMAT.\n\nAda 4 kata Hukum Izhar Wajib di dalam Al Quran, yaitu :\n\n- Dunya\n- Shinwanun\n- Bunyanun\n- dan Qinwanun",
-            R.drawable.izhar_wajib
+            "Ikhfaa",
+                "IKHFAA\' artinya : menyamarkan atau menyembunyikan.\nHukum bacaan disebut IKHFAA\', yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf hijaiyah, selain huruf-huruf Halqi, huruf-huruf idghom bighunnah, huruf-huruf idghom bilaghunnah, dan huruf-huruf iqlaab, yaitu :\nت ث ج د ذ ز س ش ص ض ط ظ ف ق ك\nCara membacanya adalah suara nun maupun tanwin masih tetap terdengar tetapi samar antara idhar dan idghom, lagipula terus bersambung dengan makhroj huruf berikutnya, sehingga kedengarannya berbunyi seperti \'NG\' jika bertemu (ز ظ ف ق ك), mirip suara \'NY\' dan \'NG\' jika bertemu (ث ذ س ش), ada kalanya seperti \'NY\' jika bertemu (ج), dan ada kalanya tetap berbunyi نْ jika bertemu dengan huruf-huruf (ت د ض ط).",
+            R.drawable.ikhfaa
         ))
 
         return nunSukunTanwin
@@ -570,17 +562,25 @@ object DataDummy {
         idgham.add(
             IdghamEntity(
             "idgham1",
-            "Idgham Mutajanisain",
-            "Idgham Mutajanisain adalah hukum tajwid yang berlaku apabila terjadi pertemuan dua huruf yang berbeda sifat, namun sejenis tempat keluar suara atau makhraj-nya. Satu dalam keadaan sukun dan satu lagi berkharokat.\n\n- Mutajanisain artinya sejenis\n- Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya (di-tasydid-kan).\n\nPanjang bacaannya adalah 2 harokat.\n\nCara membacanya adalah dengan \'mengabaikan\' huruf yang sukun, dan langsung masuk ke huruf yang berharokat, atau huruf yang sukun dileburkan ke huruf yang berharokat.\n\nHukum Idgham Mutajanisain berlaku untuk 8 huruf (ب ت ث د ذ ط ظ م)",
-            R.drawable.idgham_mutajanisain
+            "Idghom Mutamaatsilain",
+            "IDGHOM artinya : memasukkan atau mentasydidkan.\nMUTAMAATSILAIN artinya : dua sama jenis (sama makhroj dan sifatnya).\nHukum bacaan disebut IDGHOM MUTAAMATSILAIN, yakni apabila suatu huruf bertemu huruf sesamanya, yang sama makhroj dan sifatnya, huruf yang pertama sukun (mati) dan huruf yang kedua berharakah.\nCara membacanya adalah dengan memasukkan (mentasydidkan) huruf sukun yang pertama pada huruf berharokat yang kedua. Dan ditekan serta ditahan tidak lebih dari satu harokat.",
+            R.drawable.idghom_mutamaatsilain
         ))
 
         idgham.add(
             IdghamEntity(
             "idgham2",
-            "Idgham Mutamatsilain",
-                "Idgham Mutamatsilain adalah hukum tajwid yang berlaku untuk pertemuan dua huruf yang sama sifat dan makhrajnya, satu dalam keadaan sukun dan satu lagi berharakat. Dua huruf tersebut berada di dalam kata atau kalimat yang terpisah.\n\n- Mutamatsilain artinya sama atau serupa\n- Idgham artinya meleburkan satu huruf ke dalam huruf setelahnya (di-tasydid-kan).\n\nCara membacanya adalah dengan memasukkan (meleburkan) huruf yang bersukun ke dalam huruf berharakat secara jelas atau terang dan tidak didengungkan. Hukum Idgham Mutamatsilain berlaku untuk semua huruf, kecuali :\n\n- Huruf Mim Sukun (مْ) bertemu huruf Mim Berharakat (مَ مِ مُ), yang berlaku adalah hukum Idgham Mitslain.\n- Huruf Nun Sukun (نْ) bertemu huruf Nun Berharakat (نَ نِ نُ), yang berlaku adalah hukum Idgham Bighunnah.",
-            R.drawable.idgham_mutamatsilain
+            "Idghom Mutaqooribain",
+                "IDGHOM artinya : memasukkan atau mentasydidkan.\nMUTAQOORIBAIN artinya : dua huruf yang berdekatan.\nHukum bacaan disebut IDGHOM MUTAQOORIBAIN, yakni apabila ada huruf bersukun bertemu dengan huruf yang berharokat kedua huruf itu berdekatan makhroj dan sifatnya.\nCara membacanya adalah dengan memasukkan atau mentasydidkan huruf pertama pada huruf yang kedua.\n\nHuruf-huruf yang sama makhrojnya tapi lain sifatnya yaitu, misalnya :\n\nBA\' SUKUN (بْ) bertemu dengan MIM (م)\nTA\' SUKUN (تْ) bertemu dengan TSA\' (ث)\nTSA\' SUKUN (ثْ) bertemu dengan DZAL (ذ)\nQOF SUKUN (قْ) bertemu dengan KAF (ك)",
+            R.drawable.idghom_mutaqooribain
+        ))
+
+        idgham.add(
+            IdghamEntity(
+            "idgham3",
+            "Idghom Mutajaanisain",
+                "IDGHOM artinya : memasukkan atau mentasydidkan.\nMUTAJAANISAIN artinya : dua huruf yang sejenis.\nHukum bacaan disebut IDGHOM MUTAJAANISAIN, yakni apabila ada suatu huruf yang sukun berhadapan dengan huruf yang berharakat, kedua-duanya itu sama makhrojnya tapi lain sifatnya.\n\nHuruf-huruf yang sama makhrojnya tapi lain sifatnya yaitu, misalnya :\n\nTA\' SUKUN (تْ) bertemu dengan THO\' (ط)\nTA\' SUKUN (تْ) bertemu dengan DAL (د)\nDAL SUKUN (دْ) bertemu dengan TA\' (ت)\nDZAL SUKUN (ذْ) bertemu dengan DHO\' (ظ)\nTHO\' SUKUN (طْ) bertemu dengan TA\' (ت)\nLAM SUKUN (لْ) bertemu dengan RO\'(ر)\n\nCara membacanya adalah dengan memasukkan atau meng-idghomkan huruf pertama pada huruf yang kedua.",
+            R.drawable.idghom_mutajaanisain
         ))
 
         return idgham
@@ -592,18 +592,18 @@ object DataDummy {
         alifLam.add(
             AlifLamEntity(
             "aliflam1",
-            "Alif Lam Qamariyah",
-            "Al Qamariyah adalah \"Al\" yang dirangkai dengan kata benda(isim) yang diawali dengan salah satu dari huruf-huruf qamariyah.\n\n- Qamariyah artinya seperti Bulan.\n\nCara membaca \"Al\" Qamariyah harus jelas (izhhar), yakni tetap kelihatan bacaan lam sukunnya. Karena itulah hukum bacaan \"Al\" Qamariyah sering disebut dengan Izhhar Qamariyah\n\n- Jumlah huruf Qamariyah itu ada 14 huruf (ا ب غ ح ج ك و خ ف ع ق ي م ه)",
-            R.drawable.alif_lam_qamariyah
+            "Idhar Qomariyah",
+            "IDHAR artinya : menerangkan atau menjelaskan.\nQOMARIYAH berasal dari kata QOMAR artinya : bulan.\nQOMARIYAH berarti : sebangsa bulan.\nHukum bacaan disebut IDHAR QOMARIYAH, yakni apabila ALIF dan LAM (ال) bertemu dengan salah satu huruf QOMARIYAH yang berjumlah empat belas (14), yaitu :\nا ب غ ح ج ك و خ ف ع ق ي م ه\n\nHuruf QOMARIYAH terkumpul dalam kalimat :\nاَبْغِ حَجَّكَ وَخَفْ عَقِيْمَهْ\n\nKarena Laam Ta\'rief itu diumpamakan bintang, dan huruf itu diumpamakan bulan. Bintang itu tetap terang kelihatannya, meskipun bertemu dengan bulan. Oleh sebab itu cara membacanya harus terang atau di-Idharkan.",
+            R.drawable.idhar_qomariyah
         )
         )
 
         alifLam.add(
             AlifLamEntity(
             "aliflam2",
-            "Alif Lam Syamsiyah",
-                "Al Syamsiyah adalah \'Al \' atau alif lam yang dirangkai dengan kata benda (isim) yang diawali dengan salah satu dari huruf-huruf syamsiyah.\n\n- Kalau secara bahasa Syamsiyah artinya matahari\n- Cara membaca Al Syamsiyah yaitu dengan memasukkan (meng-idgham-kan) \'Al\' (lam sukun) ke huruf-huruf syamsiyah sehingga bacaan lam sukunnya hilang dan lebur ke dalam huruf syamsiyah yang mengikutinya.\n\nKarena membacanya dengan di-idghamkan, maka hukum bacaan \'Al\' Syamsiyah sering juga disebut dengan Idgham Syamsiyah\n\n- Jumlah huruf syamsiyah itu ada 14 huruf, yaitu : \n\nط ث ص ر ت ض ذ ن د س ظ ز ش ل",
-            R.drawable.alif_lam_syamsiyah
+            "Idghom Syamsiyah",
+                "IDGHOM artinya : memasukkan atau mentasydidkan.\nSYAMSIYAH berasal dari kata syamsun, artinya : matahari.\nSYAMSIYAH berarti : sebangsa matahari.\nHukum bacaan disebut IDGHOM SYAMSIYAH yakni apabila ALIF dan LAM (ال) bertemu dengan huruf-huruf hijaiyah selain huruf-huruf QOMARIYAH, yaitu :\nت ث د ذ ر ز س ش ص ض ط ظ ل ن\n\nKarena Laam Ta\'rief itu diumpamakan bintang, dan huruf itu diumpamakan matahari. Bintang bila bertemu dengan matahari di siang hari, bintangnya sirna, hilang, tidak nampak jelas kelihatan. Oleh sebab itu Alif Lam (AL-nya) tidak terbaca, sirna, hilang. Cara membacanya dengan mengidghomkan/mentasydidkan pada huruf hijaiyah, sehingga alif dan lam (ال) tidak terbaca meskipun tulisannya ada.",
+            R.drawable.idghom_syamsiyah
         )
         )
 

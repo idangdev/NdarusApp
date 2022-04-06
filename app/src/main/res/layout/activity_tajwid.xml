@@ -64,10 +64,85 @@
             android:layout_height="match_parent">
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_nun_sukun_tanwin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Nun Sukun dan Tanwin"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_mim_nun_tasydid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Mim dan Nun Tasydid"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_nun_sukun_tanwin" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_mim_sukun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Mim Sukun"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_mim_nun_tasydid" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_alif_lam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Lam Ta\'rif"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_mim_sukun" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_idgham"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Idgham"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_alif_lam" />
+
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_mad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:text="Mad"
@@ -77,7 +152,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
                 app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/btn_idgham"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_qalqalah"
@@ -110,66 +185,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/btn_qalqalah" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_mim_sukun"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Mim Sukun"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
-                app:cornerRadius="10dp"
-                android:textAllCaps="false"
-                android:textColor="@color/green_500"
-                app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_lam_jalalah" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_nun_sukun_tanwin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Nun Sukun dan Tanwin"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
-                app:cornerRadius="10dp"
-                android:textAllCaps="false"
-                android:textColor="@color/green_500"
-                app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_mim_sukun" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_idgham"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Idgham"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
-                app:cornerRadius="10dp"
-                android:textAllCaps="false"
-                android:textColor="@color/green_500"
-                app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_nun_sukun_tanwin" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_alif_lam"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Alif Lam"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
-                app:cornerRadius="10dp"
-                android:textAllCaps="false"
-                android:textColor="@color/green_500"
-                app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_idgham" />
-
-            <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_ro"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -182,7 +197,7 @@
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
                 app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_alif_lam" />
+                app:layout_constraintTop_toBottomOf="@+id/btn_lam_jalalah" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

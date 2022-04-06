@@ -9,6 +9,7 @@ import com.wildan.ndarusapp.ui.belajar.tajwid.aliflam.AlifLamActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.idgham.IdghamActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.lamjalalah.LamJalalahActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.mad.MadActivity
+import com.wildan.ndarusapp.ui.belajar.tajwid.mimnuntasydid.MimNunTasydidActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.mimsukun.MimSukunActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.nunsukundantanwin.NunSukunTanwinActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.qalqalah.QalqalahActivity
@@ -28,6 +29,16 @@ class TajwidActivity : BaseActivity() {
             startActivity(intent)
         }
 
+        binding.btnNunSukunTanwin.setOnClickListener {
+            val intent = Intent(Intent(applicationContext, NunSukunTanwinActivity::class.java))
+            startActivity(intent)
+        }
+
+        binding.btnMimNunTasydid.setOnClickListener {
+            val intent = Intent(Intent(applicationContext, MimNunTasydidActivity::class.java))
+            startActivity(intent)
+        }
+
         binding.btnQalqalah.setOnClickListener {
             val intent = Intent(Intent(applicationContext, QalqalahActivity::class.java))
             startActivity(intent)
@@ -40,11 +51,6 @@ class TajwidActivity : BaseActivity() {
 
         binding.btnMimSukun.setOnClickListener {
             val intent = Intent(Intent(applicationContext, MimSukunActivity::class.java))
-            startActivity(intent)
-        }
-
-        binding.btnNunSukunTanwin.setOnClickListener {
-            val intent = Intent(Intent(applicationContext, NunSukunTanwinActivity::class.java))
             startActivity(intent)
         }
 

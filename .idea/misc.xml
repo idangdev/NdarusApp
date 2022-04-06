@@ -87,6 +87,7 @@
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_lam_jalalah.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_mad.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_makhroj.xml" value="0.22" />
+        <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_mim_nun_tasydid.xml" value="0.25" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_mim_sukun.xml" value="0.209375" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_muqodimah.xml" value="0.2" />
         <entry key="..\:/Users/Wildan/AndroidStudioProjects/TugasAkhir/NdarusApp/app/src/main/res/layout/activity_nun_sukun_tanwin.xml" value="0.209375" />
@@ -120,7 +121,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

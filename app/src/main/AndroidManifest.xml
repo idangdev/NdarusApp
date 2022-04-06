@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.belajar.tajwid.mimnuntasydid.MimNunTasydidActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.quiz.praktik.AtTakatsur.AtTakatsurDoneActivity"
             android:exported="false" />
         <activity

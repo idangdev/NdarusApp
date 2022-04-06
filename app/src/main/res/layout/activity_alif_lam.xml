@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Alif Lam"
+        android:text="Lam Ta\'rif"
         android:textColor="@color/green_500"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
