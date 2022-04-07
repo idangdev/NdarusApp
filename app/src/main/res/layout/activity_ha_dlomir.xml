@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.belajar.tajwid.lamjalalah.detail.DetailLamJalalahActivity">
+    tools:context=".ui.belajar.tajwid.hadlomir.HaDlomirActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,10 +20,10 @@
             android:padding="20dp">
 
             <TextView
-                android:id="@+id/tv_lam_jalalah_name"
+                android:id="@+id/tv_ha_dlomir_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pendahuluan"
+                android:text="Ha\' Dlomir (Kinayah)"
                 android:textSize="20sp"
                 android:textColor="@color/green_500"
                 android:fontFamily="@font/montserrat_bold"
@@ -33,23 +33,23 @@
                 app:layout_constraintRight_toRightOf="parent"/>
 
             <TextView
-                android:id="@+id/tv_lam_jalalah_desc"
+                android:id="@+id/tv_ha_dlomir_desc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="Deskripsi"
+                android:text="HA\' DLOMIR (Kinayah) berbentu : (ha\').\nHuruf ha\' ini menunjukkan kata ganti nama orang ketiga tunggal jenis laki-laki (dlomir lilmudzakkar lilghoibi).\nBila sebelumnya atau sesudahnya ada huruf hidup, maka disebut Ha\' Kinayah."
                 android:textSize="16sp"
                 android:fontFamily="@font/montserrat"
                 android:layout_marginTop="10dp"
-                app:layout_constraintTop_toBottomOf="@id/tv_lam_jalalah_name"
+                app:layout_constraintTop_toBottomOf="@id/tv_ha_dlomir_name"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"/>
 
             <ImageView
-                android:id="@+id/iv_lam_jalalah_image"
+                android:id="@+id/iv_ha_dlomir_image"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                tools:src="@drawable/mad_aridl_lissukun"
-                app:layout_constraintTop_toBottomOf="@id/tv_lam_jalalah_desc"
+                android:layout_height="match_parent"
+                android:src="@drawable/ha_dlomir"
+                app:layout_constraintTop_toBottomOf="@id/tv_ha_dlomir_desc"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent" />
 

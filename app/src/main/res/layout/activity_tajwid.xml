@@ -73,6 +73,7 @@
                 android:text="Nun Sukun dan Tanwin"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
@@ -88,6 +89,7 @@
                 android:text="Mim dan Nun Tasydid"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
@@ -103,6 +105,7 @@
                 android:text="Mim Sukun"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
@@ -118,6 +121,7 @@
                 android:text="Lam Ta\'rif"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
@@ -133,6 +137,7 @@
                 android:text="Idgham"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
@@ -148,11 +153,28 @@
                 android:text="Mad"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
                 app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_idgham"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_tipis_tebal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Tipis dan Tebal"
+                android:fontFamily="@font/montserrat"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                app:cornerRadius="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/green_500"
+                app:backgroundTint="@color/gray"
+                app:layout_constraintTop_toBottomOf="@+id/btn_mad" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_qalqalah"
@@ -163,41 +185,28 @@
                 android:text="Qalqalah"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
                 app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_mad" />
+                app:layout_constraintTop_toBottomOf="@+id/btn_tipis_tebal" />
 
             <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_lam_jalalah"
+                android:id="@+id/btn_ha_dlomir"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
-                android:text="Lam Jalalah"
+                android:text="Ha\' Dlomir (Kinayah)"
                 android:fontFamily="@font/montserrat"
                 android:textStyle="bold"
+                android:textSize="13sp"
                 app:cornerRadius="10dp"
                 android:textAllCaps="false"
                 android:textColor="@color/green_500"
                 app:backgroundTint="@color/gray"
                 app:layout_constraintTop_toBottomOf="@+id/btn_qalqalah" />
-
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btn_ro"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"
-                android:text="Ro"
-                android:fontFamily="@font/montserrat"
-                android:textStyle="bold"
-                app:cornerRadius="10dp"
-                android:textAllCaps="false"
-                android:textColor="@color/green_500"
-                app:backgroundTint="@color/gray"
-                app:layout_constraintTop_toBottomOf="@+id/btn_lam_jalalah" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

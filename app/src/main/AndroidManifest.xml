@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.belajar.tajwid.hadlomir.HaDlomirActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.belajar.tajwid.mimnuntasydid.MimNunTasydidActivity"
             android:exported="false" />
         <activity
@@ -76,9 +79,6 @@
             android:name=".ui.tentang.TentangActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.quiz.praktik.QuizPraktikDoneActivity"
-            android:exported="false" />
-        <activity
             android:name=".ui.quiz.praktik.QuizPraktikActivity"
             android:exported="false" />
         <activity
@@ -89,14 +89,6 @@
             android:exported="false" />
         <activity
             android:name=".ui.quiz.QuizActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.belajar.tajwid.ro.detail.DetailRoActivity"
-            android:exported="false"
-            android:label="@string/title_activity_detail_ro"
-            android:theme="@style/Theme.NdarusApp.NoActionBar" />
-        <activity
-            android:name=".ui.belajar.tajwid.ro.RoActivity"
             android:exported="false" />
         <activity
             android:name=".ui.belajar.tajwid.aliflam.detail.DetailAlifLamActivity"
@@ -121,12 +113,6 @@
             android:exported="false" />
         <activity
             android:name=".ui.belajar.tajwid.mimsukun.MimSukunActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.belajar.tajwid.lamjalalah.detail.DetailLamJalalahActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ui.belajar.tajwid.lamjalalah.LamJalalahActivity"
             android:exported="false" />
         <activity
             android:name=".ui.belajar.tajwid.qalqalah.detail.DetailQalqalahActivity"

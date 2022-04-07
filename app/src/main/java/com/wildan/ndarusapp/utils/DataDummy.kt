@@ -429,6 +429,55 @@ object DataDummy {
             R.drawable.mad_lazim_harfi_mukhoffaf
         ))
 
+        mad.add(MadEntity(
+            "mad11",
+            "Mad Shilah Qoshiroh",
+            "MAD artinya : panjang.\nSHILAH artinya : hubungan.\nQOSHIROH artinya : pendek.\nHukum bacaan disebut MAD SHILAH QOSHIROH yakni apabila ada huruf HAA\' DLOMIIR / kata ganti orang (benda) ketiga yang berupa (ه _ ىه) berada sesudah huruf hidup (berharokat) dan sesudahnya tidak bertemu / dihubungkan dengan huruf bersukun atau huruf bertasydid dan atau huruf alif.\nCara membacanya dipanjangkan sampai satu ALIF atau dua harokat atau seperti panjang Mad Thobi\'ii.",
+            R.drawable.mad_shilah_qoshiroh
+        ))
+
+        mad.add(MadEntity(
+            "mad12",
+            "Catatan Mad Shilah Qoshiroh",
+            "Apabila sebelum Ha\' Dlomir tadi huruf mati (sukun) atau apabila dihubungkan dengan huruf yang lain sesudahnya, maka Ha\' tadi tidak boleh dipanjangkan.",
+            R.drawable.catatan_mad_shilah_qoshiroh
+        ))
+
+        mad.add(MadEntity(
+            "mad13",
+            "Mad Shilah Thowilah",
+            "MAD artinya : panjang.\nSHILAH artinya : hubungan.\nTHOWILAH artinya : panjang.\nHukum bacaan disebut MAD SHILAH THOWILAH yakni apabila Mad Shilah Qoshiroh bertemu dengan HAMZAH (ء) didahului oleh huruf yang berharokat hidup.\nCara membacanya seperti bacaan MAD JAIZ MUNFASHIL, artinya boleh dipanjangkan sampai dua setengah Alif atau satu Alif seperti Mad Thobi\'ii.",
+            R.drawable.mad_shilah_thowilah
+        ))
+
+        mad.add(MadEntity(
+            "mad14",
+            "Mad \'Iwadl",
+            "MAD artinya : panjang.\n\'IWADL artinya : ganti tanwin.\nYakni tanwin tadi diganti dengan Mad atau Alif yang menyebabkan bacaan panjang itu.\nHukum bacaan disebut MAD \'IWADL yakni apabila ada FATHATAIN yang jatuh pada waqof (pemberhentian), pada akhir kalimat (selain ta\' marbuthoh) atau disebut MAD pengganti TANWIN sehingga tanwin tidak berbunyi lagi.\nCara membacanya dipanjangkan satu Alif seperti Mad Thobi\'ii",
+            R.drawable.mad_iwadl
+        ))
+
+        mad.add(MadEntity(
+            "mad15",
+            "Mad Lazim Musyabba\'",
+            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nMUSYABBA\' artinya : dikenyangkan.\nHukum bacaan disebut MAD LAZIM MUSYABBA\' adalah seperti MAD LAZIM HARFI MUTSAQQOL, hanya saja sesudah MAD terdapat suara huruf mati yang tidak diidghomkan atau ditasydidkan.\nCara membacanya harus dipanjangkan seperti MAD LAZIM HARFI MUTSAQQOL, yaitu tiga alif.",
+            R.drawable.mad_lazim_musyabba
+        ))
+
+        mad.add(MadEntity(
+            "mad16",
+            "Mad Tamkin",
+            "MAD artinya : panjang.\nTAMKIN artinya : tempat atau penetapan (tepat).\nHukum bacaan disebut MAD TAMKIN yakni apabila ada YAA\' SUKUN (يْ) yang didahului dengan YAA\' yang bertasydid dan harokatnya kasroh (يِّ).\nCara membacanya ditepatkan dengan tasydid dan MAD THOBI\'II (sepanjang 2 harokat atau 1 alif).",
+            R.drawable.mad_tamkin
+        ))
+
+        mad.add(MadEntity(
+            "mad17",
+            "Mad Farq",
+            "MAD artinya : panjang.\nFARQ artinya : membedakan atau pembedaan.\nHukum bacaan disebut MAD FARQ adalah satu MAD yang di dalam Al-Qur\'an hanya terdapat di empat tempat.\nCara membacanya harus dipanjangkan untuk membedakan antara pertanyaan atau bukan, jadi dipanjangkannya itu supaya jelas bahwa kalimat itu berbentuk pertanyaan.",
+            R.drawable.mad_farq
+        ))
+
         return mad
     }
 
@@ -437,39 +486,19 @@ object DataDummy {
 
         qalqalah.add(QalqalahEntity(
             "qalqalah1",
-            "Qalqalah Qubro",
-            "Huruf qalqalah ada 5 yaitu ق ط ب ج د atau supaya mudah diingat yaitu BA JU DI TO KO\n\n- Qalqalah Qubro yaitu Qalqalah yang berada diakhir kata atau karena diwaqafkan bukan karena sukun asli.\n\n- Cara membacanya yaitu dengan memantulkan suara dari makhroj hurufnya dengan pantulan yang kuat",
-            R.drawable.qalqalah_qubro
+            "Qalqalah Shughro",
+            "QOLQOLAH artinya : memantul / pantulan.\nSHUGHRO artinya : lebih kecil.\nHukum bacaan disebut QOLQOLAH SHUGHRO yakni apabila salah satu huruf qolqolah itu berharokat sukun (mati), dan matinya itu dari asal kata-kata dalam Bahasa Arab.\nCara membacanya harus bergerak dan berbunyi seperti membalik.",
+            R.drawable.qolqolah_shughro
         ))
 
         qalqalah.add(QalqalahEntity(
             "qalqalah2",
-            "Qalqalah Shugro",
-            "Huruf qalqalah ada 5 yaitu ق ط ب ج د atau supaya mudah diingat yaitu BA JU DI TO KO\n\n- Qalqalah Shugra atau Qalqalah yang berada ditengah kata atau dengan kata lain qalqalah dengan suku asli.\n\n- Cara membacanya yaitu dengan memantulkan suara dari makhraj hurufnya (ق ط ب ج د) dengan pantulan tidak begitu kuat",
-            R.drawable.qalqalah_shugro
+            "Qalqalah Kubro",
+            "QOLQOLAH artinya : memantul / pantulan.\nKUBRO artinya : lebih besar.\nHukum bacaan disebut QOLQOLAH KUBRO yakni apabila salah satu huruf qolqolah berharokat sukun (mati) karena waqof (berhenti).\nCara membacanya lebih jelas dan lebih berkumandang.",
+            R.drawable.qolqolah_kubro
         ))
 
         return qalqalah
-    }
-
-    fun generateLamJalalahDummy(): List<LamJalalahEntity> {
-        var lamJalalah = ArrayList<LamJalalahEntity>()
-
-        lamJalalah.add(LamJalalahEntity(
-            "lam1",
-            "Lam Tafkhim",
-            "Tafkhim artinya tebal atau berat. Maksudnya adalah membaca huruf Lam dengan bunyi tebal atau berat, seperti bunyi antara \"LAH dan LOH\". Bunyi \"Tafkhim\" itu terjadi apabila sebelum huruf Lam Jalalah ada harakat fathah (a) atau dhammah (u)",
-            R.drawable.lam_tafkhim
-        ))
-
-        lamJalalah.add(LamJalalahEntity(
-            "lam2",
-            "Lam Tarqiq",
-            "Tarqiq artinya tipis atau ringan. Maksudnya adalah membaca huruf Lam dengan bunyi tipis atau ringan, seperti bunyi \'LAH\'. Bunyi \'Tarqiq\' itu terjadi apabila sebelum huruf Lam Jalalah ada harakat kasrah (i)",
-            R.drawable.lam_tarqiq
-        ))
-
-        return lamJalalah
     }
 
     fun generateMimSukunDummy(): List<MimSukunEntity> {
@@ -601,30 +630,6 @@ object DataDummy {
         )
 
         return alifLam
-    }
-
-    fun generateRoDummy(): List<RoEntity> {
-        var ro = ArrayList<RoEntity>()
-
-        ro.add(
-            RoEntity(
-            "ro1",
-            "Ro Tafkhim",
-            "Tafkhim menurut bahasa adalah tebal sedangkan menurut istilah Tafkhim adalah menebalkan huruf tertentu dengan cara menaikkan pangkal lidah\n\n- Cara membacanya yaitu dengan menaikkan pangkal lidah\n\nRo wajib hukumnya dibaca tebal (tafkhim) manakala :\n\n1. Ro bertanda baca fathah = رَحْمَةَ اللهِ\n\n2. Ro bertanda baca dhammah = كَفَرُوْا\n\n3. Ro bertanda sukun (mati), sedang huruf di belakangnya berupa huruf yang difathah = مَرْحَبًا\n\n4. Ro bertanda sukun, sedang huruf di belakangnya berupa huruf yang didhammah = ذُرِّيَّةً\n\n5. Ro yang bertanda baca sukun, sedang huruf di belakangnya berupa huruf yang dikashrah, namun kashrah ini bukan asli tetapi baru datang = أَمِ ارْتَابُوْا",
-            R.drawable.ro_tafkhim
-        )
-        )
-
-        ro.add(
-            RoEntity(
-            "ro2",
-            "Ro Tarqiq",
-                "Menurut bahasa, Tarqiq adalah tipis sedangkan menurut istilah Tarqiq adalah membunyikan huruf-huruf tertentu dengan suara atau bacaan tipis.\n\nCara membacanya yaitu dengan menarik bibir sedikit mundur sehingga agak meringis.\n\nRo Tarqiq dibaca apabila :\n\n- Huruf Ro itu sendiri di bertanda baca kasroh (رِ)\n- Huruf Ro dibaca sukun dan terletak setelah huruf yang dibaca kasroh, dan sesudahnya bukan huruf isti\'la",
-            R.drawable.ro_tarqiq
-        )
-        )
-
-        return ro
     }
 
     /***
