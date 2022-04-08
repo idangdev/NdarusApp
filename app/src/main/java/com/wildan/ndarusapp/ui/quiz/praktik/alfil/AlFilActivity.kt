@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlFilEntity
 import com.wildan.ndarusapp.databinding.ActivityAlFilBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlFilActivity : AppCompatActivity() {
+class AlFilActivity : BaseActivity() {
 
     private lateinit var binding : ActivityAlFilBinding
     private var listAlFil = ArrayList<AlFilEntity>()

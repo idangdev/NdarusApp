@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AtTakatsurEntity
 import com.wildan.ndarusapp.databinding.ActivityAtTakatsurBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AtTakatsurActivity : AppCompatActivity() {
+class AtTakatsurActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAtTakatsurBinding
     private var listAtTakatsur = ArrayList<AtTakatsurEntity>()

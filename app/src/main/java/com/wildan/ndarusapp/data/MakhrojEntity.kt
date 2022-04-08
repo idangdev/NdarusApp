@@ -9,5 +9,6 @@ data class MakhrojEntity (
     var makhrojCatatan1: String,
     var makhrojCatatan2: String,
     var makhrojImage: Int,
+    var makhrojPraktikImage: Int,
     var makrhojUrl: String
 )

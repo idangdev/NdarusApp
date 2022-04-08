@@ -33,7 +33,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:fontFamily="@font/montserrat_bold"
-        android:text="Refernsi"
+        android:text="Referensi"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +67,7 @@ penerbit dan tanpa tahun cetak\n\n3. Hilyatut Tilawah karya Rahab Muhammad Mufid
 maktabah rawa‟i cet ke 2 tahun 1429 H Jeddah Arab Saudi\n\n4. Tajwid Lengkap Asy syafi‟i karya Abu Ya‟la Kurnaedi Lc, pustaka
 imam asy syafii cet pertama tahun 1435 H Jakarta Indonesia\n\n5. Panduan Ilmu Tajwid Bergambar karya DR. Aiman Rusydi Suwaid,
 zamzam cet ke 1 tahun 2015 M Solo Indonesia\n\n6. Al Bayan fi Talaqqi Al quran karya abdurahman Fadhali, pustaka
-Adz dzhabi cet dua ke tahun 2019\n\n7. Tajwid Online dan Matan Tajwid, dan lain-lain."
+Adz dzhabi cet dua ke tahun 2019\n\n7. Tajwid Online dan Matan Tajwid.\n\n8. Tuhfatul Athfaal Wal Ghilmaan Oleh : Imam Sulaiman al-Jamzuriy رحمه الله\n\n9. Ilmu Tajwid Lengkap Oleh H.Sayuti. Disusun dan Diterbitkan Oleh Sangkala. Dan lain-lain"
                 android:textSize="16sp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"

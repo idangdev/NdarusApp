@@ -21,6 +21,7 @@ object DataDummy {
             "Sifat Kuat Huruf Hamzah : Jahr dan Syiddah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Sandaran ke makhrojnya kuat. Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)",
             R.drawable.ic_hamzah,
+            R.drawable.hamzah,
             "wvMv-TioB30"
         ))
 
@@ -33,6 +34,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ba : Jahr, Syiddah, Qalqalah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Sandaran ke makhrojnya kuat. Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nCara mengucapkannya dengan menyentuhkan bibir atas dan bibir bawah",
             R.drawable.ic_ba,
+            R.drawable.ba,
             "ZWArlt5aOT4"
         ))
 
@@ -45,6 +47,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ta : Syiddah\nSifat Lemahnya : Hams, Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nSaat mengucapkan huruf Ta, jangan sampai hams-nya terlalu mendominasi sehingga menghilangkan sifat syiddah-nya",
             R.drawable.ic_ta,
+            R.drawable.ta,
             "3m_TZd8ZyFw"
         ))
 
@@ -57,6 +60,7 @@ object DataDummy {
             "Sifat Kuat Huruf Tsa : Tidak ada\nSifat Lemahnya : Hams, Rakhawah, Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nCara mengucapkannya dengan mengeluarkan ujung lidah dan menyentuhkan ke ujung dua gigi seri atas. Dan ujung lidahnya tidak menempel ujung dua gigi seri bawah.",
             R.drawable.ic_tsa,
+            R.drawable.tsa,
             "ndtzkBU_md4"
         ))
 
@@ -69,6 +73,7 @@ object DataDummy {
             "Sifat Kuat Huruf Jim : Jahr, Syiddah, dan Qalqalah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah ke dasar mulut (istifal)\n\nPantulan (Qalqalah) pada huruf jim adalah suara yang tipis.",
             R.drawable.ic_jim,
+            R.drawable.jim,
             "PpaDPFWhVSw"
         ))
 
@@ -81,6 +86,7 @@ object DataDummy {
             "Sifat Lemah Huruf Kha : Hams, Rakhawah, istifal, infitah\nSifat Kuatnya : Tidak ada\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nCara mengucapkannya dengan sedikit menekan katup epligotis.",
             R.drawable.ic_kha,
+            R.drawable.kha,
             "Df30bKl1nYQ"
         ))
 
@@ -93,6 +99,7 @@ object DataDummy {
             "Sifat Kuat Huruf Kho : Isti\'la\nSifat Lemahnya : Hams, rakhawah, infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (isti\'la)\n\nCara mengucapkannya dengan menyentuhkan akar lidah ke bagian dari langit-langit.",
             R.drawable.ic_kho,
+            R.drawable.kho,
             "_ZnrlL-R38o"
         ))
 
@@ -105,6 +112,7 @@ object DataDummy {
             "Sifat Kuat Huruf Dal : Jahr, Syiddah, dan Qalqalah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah ke dasar mulut (istifal).\n\nPantulan (Qalqalah) pada huruf dal adalah suara yang tipis.",
             R.drawable.ic_dal,
+            R.drawable.dal,
             "P2QDjDTqV-k"
         ))
 
@@ -117,6 +125,7 @@ object DataDummy {
             "Sifat Kuat Huruf Dzal : Jahr dan Syiddah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).\n\nCara mengucapkannya dengan mengeluarkan ujung lidah dan menyentuhkannya ke ujung dua gigi seri atas. Dan ujung lidahnya tidak menempel ujung dua gigi seri bawah.",
             R.drawable.ic_dzal,
+            R.drawable.dzal,
             "WzVqMzb3Mm8"
         ))
 
@@ -129,6 +138,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ra : Jahr, Takrir, dan Inhiraf\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Idzlaq",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut. Suara huruf tebal dengan mengangkat pangkal lidah ke langit-langit mulut.\n\nTebal (Tafkhim) dan Tipis (Tarqiq) ro :\nJika berhubungan dengan kasrah maka dibaca tipis. Sedangkan bila berhubungan dengan fathah ataupun dhammah maka dibaca tebal",
             R.drawable.ic_ra,
+            R.drawable.ra,
             "az_K_u7Ca7E"
         ))
 
@@ -141,6 +151,7 @@ object DataDummy {
             "Sifat Kuat Huruf Zay : Jahr dan Shafir\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).\n\nSebagian ulama membedakan desisan huruf-huruf shafir, huruf zay desisannya seperti suara lebah",
             R.drawable.ic_zay,
+            R.drawable.zay,
             "ahXqGxLdYYU"
         ))
 
@@ -153,6 +164,7 @@ object DataDummy {
             "Sifat Kuat Huruf Sin : Shafir\nSifat Lemahnya : Hams, Rakhawah, Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).\n\nSebagian ulama membedakan desisan huruf-huruf shafir, huruf sin desisannya seperti suara belalang.",
             R.drawable.ic_sin,
+            R.drawable.sin,
             "s5EcgmQqXvA"
         ))
 
@@ -165,6 +177,7 @@ object DataDummy {
             "Sifat Kuat Huruf Syin : Tafasysyi\nSifat Lemahnya : Hams, Rakhawah, Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nSifat tafasysyi pada huruf syin akan terasa sempurna jika tidak terlalu membuka atau memonyongkan bibir",
             R.drawable.ic_syin,
+            R.drawable.syin,
             "yfrytwfI22g"
         ))
 
@@ -177,6 +190,7 @@ object DataDummy {
             "Sifat Kuat Huruf Shad : Isti\'la, Ithbaq, dan Shafir\nSifat Lemahnya : Hams dan Rakhawah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit langit mulut (isti\'la), dan juga mengangkat suara dari tengah lidah, supaya suaranya menggumpal (ithbaq).\n\nSebagian ulama membedakan desisan huruf-huruf shafir, huruf shad desisannya seperti suara angsa.",
             R.drawable.ic_shad,
+            R.drawable.shad,
             "2aluLMAgefY"
         ))
 
@@ -189,6 +203,7 @@ object DataDummy {
             "Sifat Kuat Huruf Dhad : Jahr, Isti\'la, Ithbaq, dan Isthithalah\nSifat Lemahnya : Rakhawah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (Isti\'la), dan juga mengangkat suara dari tengah lidah, supaya suaranya menggumpal (ithbaq).\n\nCara mengucapkannya dengan meletakkan salah satu tepi lidah (dari ujung sampai pangkal lidah) atau kedua-duanya menekan dinding gigi-gigi geraham.",
             R.drawable.ic_dhad,
+            R.drawable.dhad,
             "WqZGcIBdvD8"
         ))
 
@@ -201,6 +216,7 @@ object DataDummy {
             "Sifat Kuat Huruf Tha : Jahr, Isti\'la, Syiddah, Ithbaq, Qalqalah\nSifat Lemahnya : Tidak Ada\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (isti\'la), dan juga mengangkat suara dari tengah lidah, supaya suaranya menggumpal (Ithbaq)\n\nPantulan (Qalqalah) pada huruf tha adalah suara yang tebal",
             R.drawable.ic_tha,
+            R.drawable.tha,
             "Ym2pbYQLHRE"
         ))
 
@@ -213,6 +229,7 @@ object DataDummy {
             "Sifat Kuat Huruf Zha : Jahr, Isti\'la, dan Ithbaq\nSifat Lemahnya : Rakhawah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (isti\'la), dan juga mengangkat suara dari tengah lidah, supaya suaranya menggumpal (ithbaq)\n\nCara mengucapkannya dengan mengeluarkan ujung lidah dan menyentuhkannya ke ujung dua gigi seri atas. Dan ujung lidahnya tidak menempel ujung dua gigi seri bawah",
             R.drawable.ic_zha,
+            R.drawable.zha,
             "SYKYHlW9MaM"
         ))
 
@@ -225,6 +242,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ain : Jahr\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nCara mengucapkannya dengan menekan katup epligotis.",
             R.drawable.ic_ain,
+            R.drawable.ain,
             "LznWw6M7u9o"
         ))
 
@@ -237,6 +255,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ghayn : Jahr dan Isti\'la\nSifat Lemahnya : Rakhawah dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (isti\'la).\n\nCara mengucapkannya dengan menyentuhkan akar lidah ke bagian dari langit-langit.",
             R.drawable.ic_ghayn,
+            R.drawable.ghayn,
             "VUyrJp-MXBY"
         ))
 
@@ -249,6 +268,7 @@ object DataDummy {
             "Sifat Kuat Huruf Fa : Tidak Ada\nSifat Lemahnya : Hams, Rakhawah, dan Istifal\nSifat tidak kuat dan tidak lemah : Idzlaq",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal). Sebagian ulama qiraat mengatakan huruf fa punya sifat khas tersendiri yaitu TA\'AFFUF yaitu suara khas yang keluar dari bibir ketika mengucapkan fa.",
             R.drawable.ic_fa,
+            R.drawable.fa,
             "a_4DTJc5opo"
         ))
 
@@ -261,6 +281,7 @@ object DataDummy {
             "Sifat Kuat Huruf Qaf : Jahr, Isti\'la, Syiddah, dan Qalqalah\nSifat Lemahnya : Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tebal dengan mengangkat pangkal lidah kelangit-langit mulut (isti\'la).\n\nPantulan (Qalqalah) pada huruf qaf adalah suara yang tebal.",
             R.drawable.ic_qaf,
+            R.drawable.qaf,
             "gj_y7XXsUYg"
         ))
 
@@ -273,6 +294,7 @@ object DataDummy {
             "Sifat Kuat Huruf Kaf : Syiddah\nSifat Lemahnya : Hams, Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).\n\nJangan sampai hamsnya terlalu mendominasi sehingga menghilangkan sifat syiddahnya",
             R.drawable.ic_kaf,
+            R.drawable.kaf,
             "r6ok4eVFr2w"
         ))
 
@@ -285,6 +307,7 @@ object DataDummy {
             "Sifat Kuat Huruf Lam : Jahr dan Inhiraf\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Idzlaq",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).",
             R.drawable.ic_lam,
+            R.drawable.lam,
             "JvzWEQ9MJ34"
         ))
 
@@ -297,6 +320,7 @@ object DataDummy {
             "Sifat Kuat Huruf Mim : Jahr dan Ghunnah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Idzlaq",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nHuruf mim yang berharakat, tetap suaranya keluar dari mulut sedangkan mim yang sukun dan tasydid suaranya keluar dari rongga hidung.",
             R.drawable.ic_mim,
+            R.drawable.mim,
             "kWuxqR-BoxI"
         ))
 
@@ -309,6 +333,7 @@ object DataDummy {
             "Sifat Kuat Huruf Nun : Jahr dan Ghunnah\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Idzlaq",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal).\n\nHuruf nun yang berharakat, tetap suaranya keluar dari mulut sedangkan nun yang sukun dan tasydid suaranya keluar dari rongga hidung",
             R.drawable.ic_nun,
+            R.drawable.nun,
             "m1w9h2yhXds"
         ))
 
@@ -321,6 +346,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ha : Tidak ada\nSifat Lemahnya : Hams dan Rakhawah\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nHuruf Ha berbunyi dengan menggetarkan pita suara. Letaknya pada bagian sekitar jakun",
             R.drawable.ic_ha,
+            R.drawable.ha,
             "Y_wjhcA1Dp0"
         ))
 
@@ -333,6 +359,7 @@ object DataDummy {
             "Sifat Kuat Huruf Wa : Jahr\nSifat Lemahnya : Hams, Rakhawah, Istifal, Infitah, dan Liin\nSifat tidak kuat dan tidak lemah : Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal)\n\nKetika mengucapkan wawu sukun sebelumnya berharakat fathah (Liin), bukan suara \'u\' dhammah yang tepat suara \'w\' wawu.",
             R.drawable.ic_wa,
+            R.drawable.wa,
             "64m9DrhjUZg"
         ))
 
@@ -345,6 +372,7 @@ object DataDummy {
             "Sifat Kuat Huruf Ya : Jahr\nSifat Lemahnya : Istifal dan Infitah\nSifat tidak kuat dan tidak lemah : Bainiyyah dan Ishmat",
             "Suara huruf yang tipis dengan menghamparkan pangkal lidah kedasar mulut (istifal) Ketika mengucapkan ya sukun sebelumnya berharakat fathah (Liin), bukan suara \'i\' kasrah, yang tepat suaranya \'y\' ya.",
             R.drawable.ic_ya,
+            R.drawable.ya,
             "FNcboc_BtA0"
         ))
 

@@ -4,8 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityAlFilDoneBinding
 import com.wildan.ndarusapp.R
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlFilDoneActivity : AppCompatActivity() {
+class AlFilDoneActivity : BaseActivity() {
 
     companion object{
         const val EXTRA_SCORE = "extra_score"

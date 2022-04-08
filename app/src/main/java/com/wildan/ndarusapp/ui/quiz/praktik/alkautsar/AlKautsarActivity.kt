@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlKautsarEntity
 import com.wildan.ndarusapp.databinding.ActivityAlKautsarBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlKautsarActivity : AppCompatActivity() {
+class AlKautsarActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAlKautsarBinding
     private var listAlKautsar = ArrayList<AlKautsarEntity>()

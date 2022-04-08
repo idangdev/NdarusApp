@@ -16,8 +16,9 @@ import androidx.lifecycle.ViewModelProvider
 import com.wildan.ndarusapp.R
 import com.wildan.ndarusapp.data.AlAshrEntity
 import com.wildan.ndarusapp.databinding.ActivityAlAshrBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AlAshrActivity : AppCompatActivity() {
+class AlAshrActivity : BaseActivity() {
 
     private lateinit var binding: ActivityAlAshrBinding
     private var listAlAshr = ArrayList<AlAshrEntity>()

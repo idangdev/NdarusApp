@@ -3,8 +3,9 @@ package com.wildan.ndarusapp.ui.tentang.infoapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityInfoAppBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class InfoAppActivity : AppCompatActivity() {
+class InfoAppActivity : BaseActivity() {
 
     private lateinit var binding: ActivityInfoAppBinding
 

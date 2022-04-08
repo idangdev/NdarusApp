@@ -3,8 +3,9 @@ package com.wildan.ndarusapp.ui.quiz.praktik.AtTakatsur
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.wildan.ndarusapp.databinding.ActivityAtTakatsurDoneBinding
+import com.wildan.ndarusapp.ui.base.BaseActivity
 
-class AtTakatsurDoneActivity : AppCompatActivity() {
+class AtTakatsurDoneActivity : BaseActivity() {
 
     companion object{
         const val EXTRA_SCORE = "extra_score"

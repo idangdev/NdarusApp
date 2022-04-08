@@ -56,6 +56,7 @@ class DetailMakhrojActivity : BaseActivity() {
             tvMakhrojSifat.text = makhroj.makhrojSifat
             tvMakhrojCatatan1.text = makhroj.makhrojCatatan1
             tvMakhrojCatatan2.text = makhroj.makhrojCatatan2
+            ivMakhrojPraktik.setImageResource(makhroj.makhrojPraktikImage)
         }
 
         val videoId = makhroj.makrhojUrl
