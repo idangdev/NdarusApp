@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NdarusApp">
         <activity
+            android:name=".ui.muqodimah.PembagianMakhorijulHurufActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.belajar.tajwid.tipistebal.TipisTebalActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.belajar.tajwid.hadlomir.HaDlomirActivity"
             android:exported="false" />
         <activity

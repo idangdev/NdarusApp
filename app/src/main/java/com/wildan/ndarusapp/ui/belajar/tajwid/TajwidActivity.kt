@@ -12,6 +12,7 @@ import com.wildan.ndarusapp.ui.belajar.tajwid.mimnuntasydid.MimNunTasydidActivit
 import com.wildan.ndarusapp.ui.belajar.tajwid.mimsukun.MimSukunActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.nunsukundantanwin.NunSukunTanwinActivity
 import com.wildan.ndarusapp.ui.belajar.tajwid.qalqalah.QalqalahActivity
+import com.wildan.ndarusapp.ui.belajar.tajwid.tipistebal.TipisTebalActivity
 
 class TajwidActivity : BaseActivity() {
 
@@ -43,8 +44,8 @@ class TajwidActivity : BaseActivity() {
         }
 
         binding.btnTipisTebal.setOnClickListener {
-//            val intent = Intent(Intent(applicationContext, TipisTebalActivity::class.java))
-//            startActivity(intent)
+            val intent = Intent(Intent(applicationContext, TipisTebalActivity::class.java))
+            startActivity(intent)
         }
 
         binding.btnMimSukun.setOnClickListener {

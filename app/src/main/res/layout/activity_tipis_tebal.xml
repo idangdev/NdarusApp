@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.belajar.tajwid.tipistebal.TipisTebalActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_tipis_tebal_pembukaan_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipis dan Tebal"
+                android:textSize="20sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_tipis_tebal_pembukaan_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tipis_tebal_pembukaan_desc"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_tipis_tebal_pembukaan_name"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_lam_tebal_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lam Dibaca Tebal"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_tipis_tebal_pembukaan_desc"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_lam_tebal_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lam_tebal_desc"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_lam_tebal_name"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_lam_tebal_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/lam_tebal"
+                app:layout_constraintTop_toBottomOf="@id/tv_lam_tebal_desc"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_lam_tipis_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lam Dibaca Tipis"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_lam_tebal_image"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_lam_tipis_desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lam_tipis_desc_1"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_lam_tipis_name_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_lam_tipis_image_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/lam_tipis_1"
+                app:layout_constraintTop_toBottomOf="@id/tv_lam_tipis_desc_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_lam_tipis_desc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lam_tipis_desc_2"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_lam_tipis_image_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_lam_tipis_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/lam_tipis_2"
+                app:layout_constraintTop_toBottomOf="@id/tv_lam_tipis_desc_2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tebal_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ro\' Dibaca Tebal"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_lam_tipis_image_2"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_ro_tebal_desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tebal_desc_1"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tebal_name_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tebal_image_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tebal_1"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tebal_desc_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tebal_desc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tebal_desc_2"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tebal_image_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tebal_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tebal_2"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tebal_desc_2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tebal_desc_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tebal_desc_3"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tebal_image_2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tebal_image_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tebal_3"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tebal_desc_3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tebal_desc_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tebal_desc_4"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tebal_image_3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tebal_image_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tebal_4"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tebal_desc_4"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ro\' Dibaca Tipis"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tebal_image_4"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tipis_desc_1"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_name_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tipis_image_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tipis_1"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_desc_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_desc_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tipis_desc_2"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tipis_image_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tipis_image_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tipis_2"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_desc_2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_desc_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tipis_desc_3"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tipis_image_2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tipis_image_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tipis_3"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_desc_3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_tebal_name_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ro\' Dibaca Tipis atau Tebal"
+                android:textSize="16sp"
+                android:textColor="@color/green_500"
+                android:fontFamily="@font/montserrat_bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/iv_ro_tipis_image_3"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+
+            <TextView
+                android:id="@+id/tv_ro_tipis_tebal_desc_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ro_tipis_tebal_desc_1"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_tebal_name_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+            <ImageView
+                android:id="@+id/iv_ro_tipis_tebal_image_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ro_tipis_tebal"
+                app:layout_constraintTop_toBottomOf="@id/tv_ro_tipis_tebal_desc_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
