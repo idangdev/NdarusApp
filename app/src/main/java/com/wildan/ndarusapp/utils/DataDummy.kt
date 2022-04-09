@@ -485,27 +485,6 @@ object DataDummy {
             R.drawable.mad_iwadl
         ))
 
-        mad.add(MadEntity(
-            "mad15",
-            "Mad Lazim Musyabba\'",
-            "MAD artinya : panjang.\nLAZIM artinya : pasti.\nMUSYABBA\' artinya : dikenyangkan.\nHukum bacaan disebut MAD LAZIM MUSYABBA\' adalah seperti MAD LAZIM HARFI MUTSAQQOL, hanya saja sesudah MAD terdapat suara huruf mati yang tidak diidghomkan atau ditasydidkan.\nCara membacanya harus dipanjangkan seperti MAD LAZIM HARFI MUTSAQQOL, yaitu tiga alif.",
-            R.drawable.mad_lazim_musyabba
-        ))
-
-        mad.add(MadEntity(
-            "mad16",
-            "Mad Tamkin",
-            "MAD artinya : panjang.\nTAMKIN artinya : tempat atau penetapan (tepat).\nHukum bacaan disebut MAD TAMKIN yakni apabila ada YAA\' SUKUN (يْ) yang didahului dengan YAA\' yang bertasydid dan harokatnya kasroh (يِّ).\nCara membacanya ditepatkan dengan tasydid dan MAD THOBI\'II (sepanjang 2 harokat atau 1 alif).",
-            R.drawable.mad_tamkin
-        ))
-
-        mad.add(MadEntity(
-            "mad17",
-            "Mad Farq",
-            "MAD artinya : panjang.\nFARQ artinya : membedakan atau pembedaan.\nHukum bacaan disebut MAD FARQ adalah satu MAD yang di dalam Al-Qur\'an hanya terdapat di empat tempat.\nCara membacanya harus dipanjangkan untuk membedakan antara pertanyaan atau bukan, jadi dipanjangkannya itu supaya jelas bahwa kalimat itu berbentuk pertanyaan.",
-            R.drawable.mad_farq
-        ))
-
         return mad
     }
 
@@ -551,8 +530,8 @@ object DataDummy {
         mimSukun.add(
             MimSukunEntity(
             "mim3",
-            "Idhar Syafawi",
-                "IDHAR artinya : menjelaskan.\nSYAFAWI asal katanya SYAFATUN artinya : bibir.\nHukum bacaan disebut IDHAR SYAFAWI, yakni apabila ada mim sukun (مْ) bertemu dengan salah satu huruf yang ke 26. yaitu semua huruf hijaiyah selain huruf mim (م) dan ba (ب).\nCara membacanya adalah terang dan jelas di bibir dengan mulut tertutup. Dan harus lebih dijelaskan (di Idh-harkan) lagi apabila mim sukun (مْ) bertemu dengan huruf wau (و) dan fa\' (ف).",
+            "Idzhar Syafawi",
+                "IDZHAR artinya : menjelaskan.\nSYAFAWI asal katanya SYAFATUN artinya : bibir.\nHukum bacaan disebut IDZHAR SYAFAWI, yakni apabila ada mim sukun (مْ) bertemu dengan salah satu huruf yang ke 26. yaitu semua huruf hijaiyah selain huruf mim (م) dan ba (ب).\nCara membacanya adalah terang dan jelas di bibir dengan mulut tertutup. Dan harus lebih dijelaskan (di Idh-harkan) lagi apabila mim sukun (مْ) bertemu dengan huruf wau (و) dan fa\' (ف).",
             R.drawable.idhar_syafawi
         ))
 
@@ -565,8 +544,8 @@ object DataDummy {
         nunSukunTanwin.add(
             NunSukunTanwinEntity(
             "nun1",
-            "Idhar Halqi",
-            "IDHAR artinya : Menjelaskan\nHALQI berasal dari kata \'HALQ\' artinya : tenggorokan.\nHukum bacaan disebut IDHAR HALQI, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf-huruf Halqi.\n\nHuruf-huruf Halqi ada 6, yaitu :\nء ه ح خ ع غ\nHuruf-huruf ini disebut Halqi karena Makhroj (tempat keluarnya suara huruf) tersebut adalah kerongkongan.\nCara membaca nun sukun atau tanwin yang demikian itu harus terang, jelas dan pendek, bunyi suaranya tetap jelas, tidak samar dan tidak mendengung.",
+            "Idzhar Halqi",
+            "IDZHAR artinya : Menjelaskan\nHALQI berasal dari kata \'HALQ\' artinya : tenggorokan.\nHukum bacaan disebut IDZHAR HALQI, yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf-huruf Halqi.\n\nHuruf-huruf Halqi ada 6, yaitu :\nء ه ح خ ع غ\nHuruf-huruf ini disebut Halqi karena Makhroj (tempat keluarnya suara huruf) tersebut adalah kerongkongan.\nCara membaca nun sukun atau tanwin yang demikian itu harus terang, jelas dan pendek, bunyi suaranya tetap jelas, tidak samar dan tidak mendengung.",
             R.drawable.idhar_halqi
         ))
 
@@ -598,7 +577,7 @@ object DataDummy {
             NunSukunTanwinEntity(
             "nun5",
             "Ikhfaa",
-                "IKHFAA\' artinya : menyamarkan atau menyembunyikan.\nHukum bacaan disebut IKHFAA\', yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf hijaiyah, selain huruf-huruf Halqi, huruf-huruf idghom bighunnah, huruf-huruf idghom bilaghunnah, dan huruf-huruf iqlaab, yaitu :\nت ث ج د ذ ز س ش ص ض ط ظ ف ق ك\nCara membacanya adalah suara nun maupun tanwin masih tetap terdengar tetapi samar antara idhar dan idghom, lagipula terus bersambung dengan makhroj huruf berikutnya, sehingga kedengarannya berbunyi seperti \'NG\' jika bertemu (ز ظ ف ق ك), mirip suara \'NY\' dan \'NG\' jika bertemu (ث ذ س ش), ada kalanya seperti \'NY\' jika bertemu (ج), dan ada kalanya tetap berbunyi نْ jika bertemu dengan huruf-huruf (ت د ض ط).",
+                "IKHFAA\' artinya : menyamarkan atau menyembunyikan.\nHukum bacaan disebut IKHFAA\', yakni apabila nun sukun (نْ) atau tanwin bertemu dengan salah satu huruf hijaiyah, selain huruf-huruf Halqi, huruf-huruf idghom bighunnah, huruf-huruf idghom bilaghunnah, dan huruf-huruf iqlaab, yaitu :\nت ث ج د ذ ز س ش ص ض ط ظ ف ق ك\nCara membacanya adalah suara nun maupun tanwin masih tetap terdengar tetapi samar antara idzhar dan idghom, lagipula terus bersambung dengan makhroj huruf berikutnya, sehingga kedengarannya berbunyi seperti \'NG\' jika bertemu (ز ظ ف ق ك), mirip suara \'NY\' dan \'NG\' jika bertemu (ث ذ س ش), ada kalanya seperti \'NY\' jika bertemu (ج), dan ada kalanya tetap berbunyi نْ jika bertemu dengan huruf-huruf (ت د ض ط).",
             R.drawable.ikhfaa
         ))
 
@@ -642,8 +621,8 @@ object DataDummy {
         alifLam.add(
             AlifLamEntity(
             "aliflam1",
-            "Idhar Qomariyah",
-            "IDHAR artinya : menerangkan atau menjelaskan.\nQOMARIYAH berasal dari kata QOMAR artinya : bulan.\nQOMARIYAH berarti : sebangsa bulan.\nHukum bacaan disebut IDHAR QOMARIYAH, yakni apabila ALIF dan LAM (ال) bertemu dengan salah satu huruf QOMARIYAH yang berjumlah empat belas (14), yaitu :\nا ب غ ح ج ك و خ ف ع ق ي م ه\n\nHuruf QOMARIYAH terkumpul dalam kalimat :\nاَبْغِ حَجَّكَ وَخَفْ عَقِيْمَهْ\n\nKarena Laam Ta\'rief itu diumpamakan bintang, dan huruf itu diumpamakan bulan. Bintang itu tetap terang kelihatannya, meskipun bertemu dengan bulan. Oleh sebab itu cara membacanya harus terang atau di-Idharkan.",
+            "Idzhar Qomariyah",
+            "IDZHAR artinya : menerangkan atau menjelaskan.\nQOMARIYAH berasal dari kata QOMAR artinya : bulan.\nQOMARIYAH berarti : sebangsa bulan.\nHukum bacaan disebut IDZHAR QOMARIYAH, yakni apabila ALIF dan LAM (ال) bertemu dengan salah satu huruf QOMARIYAH yang berjumlah empat belas (14), yaitu :\nا ب غ ح ج ك و خ ف ع ق ي م ه\n\nHuruf QOMARIYAH terkumpul dalam kalimat :\nاَبْغِ حَجَّكَ وَخَفْ عَقِيْمَهْ\n\nKarena Laam Ta\'rief itu diumpamakan bintang, dan huruf itu diumpamakan bulan. Bintang itu tetap terang kelihatannya, meskipun bertemu dengan bulan. Oleh sebab itu cara membacanya harus terang atau di-Idzharkan.",
             R.drawable.idhar_qomariyah
         )
         )
